@@ -23,7 +23,7 @@ module.exports = {
     const p = getPrefix(event.threadID);
     const userMoney = await usersData.get(event.senderID, "money");
     const user = event.senderID;
-    const bankHeader = "🏦 𝗩𝗢𝗟𝗗𝗜𝗚𝗢 𝗕𝗮𝗻𝗸 𝘃𝟲.𝟬\n━━━━━━━━━━━━━━━━━━━━━━━━━━";
+    const bankHeader = "🏦 𝗠𝗘𝗥𝗬𝗟 𝗕𝗮𝗻𝗸 𝘃𝟲.𝟬\n━━━━━━━━━━━━━━━━━━━━━━━━━━";
 
     const getUserInfo = async (api, userID) => {
       try {
