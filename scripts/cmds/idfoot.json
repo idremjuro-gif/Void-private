@@ -1,0 +1,284 @@
+[
+  {
+    "image": "https://i.ibb.co/39KZ1gC5/image.jpg",
+    "answer": ["ronaldo", "cristiano", "cristiano ronaldo"]
+  },
+  {
+    "image": "https://i.ibb.co/hrLVLjv/image.jpg",
+    "answer": ["messi", "lionel", "lionel messi"]
+  },
+  {
+    "image": "https://i.ibb.co/23VH3bT5/image.jpg",
+    "answer": ["neymar", "neymar jr", "neymar da silva santos jr"]
+  },
+  {
+    "image": "https://i.ibb.co/nNwFxz1S/image.jpg",
+    "answer": ["mbappe", "kylian", "kylian mbappe"]
+  },
+  {
+    "image": "https://i.ibb.co/gLWxMp8v/image.jpg",
+    "answer": ["benzema", "karim", "karim benzema"]
+  },
+  {
+    "image": "https://i.ibb.co/ksnyJyty/image.jpg",
+    "answer": ["lewandowski", "robert", "robert lewandowski"]
+  },
+  {
+    "image": "https://i.ibb.co/bjHCCr08/image.jpg",
+    "answer": ["modric", "luka", "luka modric"]
+  },
+  {
+    "image": "https://i.ibb.co/CKHw6rwh/image.jpg",
+    "answer": ["salah", "mohamed", "mohamed salah"]
+  },
+  {
+    "image": "https://i.ibb.co/dsYjhV1M/image.jpg",
+    "answer": ["hazard", "eden", "eden hazard"]
+  },
+  {
+    "image": "https://i.ibb.co/wrp6bQ0X/image.jpg",
+    "answer": ["kante", "ngolo", "ngolo kante"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/Fq7z6hWV/image.jpg",
+    "answer": ["zidane", "zinedine", "zinedine zidane"]
+  },
+  {
+    "image": "https://i.ibb.co/35tjPzPL/image.jpg",
+    "answer": ["ronaldinho", "ronaldo de assis", "ronaldinho gaucho"]
+  },
+  {
+    "image": "https://i.ibb.co/zWX18bKD/image.jpg",
+    "answer": ["xavi", "xavi hernandez", "xavier hernandez"]
+  },
+  {
+    "image": "https://i.ibb.co/ymnYg8Yq/image.jpg",
+    "answer": ["iniesta", "andres", "andres iniesta"]
+  },
+  {
+    "image": "https://i.ibb.co/Kc0KXvwv/image.jpg",
+    "answer": ["beckham", "david", "david beckham"]
+  },
+  {
+    "image": "https://i.ibb.co/Wv1X9s7d/image.jpg",
+    "answer": ["maldini", "paolo", "paolo maldini"]
+  },
+  {
+    "image": "https://i.ibb.co/sJWGcnPC/image.jpg",
+    "answer": ["ibrahimovic", "zlatan", "zlatan ibrahimovic"]
+  },
+  {
+    "image": "https://i.ibb.co/WNNLp548/image.jpg",
+    "answer": ["thierry", "henry", "thierry henry"]
+  },
+  {
+    "image": "https://i.ibb.co/xnBjQMr/image.jpg",
+    "answer": ["eto'o", "samuel", "samuel eto'o"]
+  },
+  {
+    "image": "https://i.ibb.co/s9Mx5MTJ/image.jpg",
+    "answer": ["drogba", "didier", "didier drogba"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/ymxq6LrQ/image.jpg",
+    "answer": ["vinicius", "vinicius jr", "vinicius junior"]
+  },
+  {
+    "image": "https://i.ibb.co/spH8wVq8/image.jpg",
+    "answer": ["yamal", "lamine", "lamine yamal"]
+  },
+  {
+    "image": "https://i.ibb.co/qYvDp1JH/image.jpg",
+    "answer": ["haaland", "erling", "erling haaland"]
+  },
+  {
+    "image": "https://i.ibb.co/vpqLgzc/image.jpg",
+    "answer": ["bellingham", "jude", "jude bellingham"]
+  },
+  {
+    "image": "https://i.ibb.co/w8B3nCh/image.jpg",
+    "answer": ["osimhen", "victor", "victor osimhen"]
+  },
+  {
+    "image": "https://i.ibb.co/4wYnc8cb/image.jpg",
+    "answer": ["rashford", "marcus", "marcus rashford"]
+  },
+  {
+    "image": "https://i.ibb.co/v4cRHVr2/image.jpg",
+    "answer": ["foden", "phil", "phil foden"]
+  },
+  {
+    "image": "https://i.ibb-co/sJKG8Y6L/image.jpg",
+    "answer": ["valverde", "federico", "fede valverde"]
+  },
+  {
+    "image": "https://i.ibb.co/Ldq7j9mm/image.jpg",
+    "answer": ["odegaard", "martin", "martin odegaard"]
+  },
+  {
+    "image": "https://i.ibb.co/jYkWTST/image.jpg",
+    "answer": ["musiala", "jamal", "jamal musiala"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/gZsWDF46/image.jpg",
+    "answer": ["bakambu", "cedric", "cedric bakambu"]
+  },
+  {
+    "image": "https://i.ibb.co/gZMYcnq2/image.jpg",
+    "answer": ["mbemba", "chancel", "chancel mbemba"]
+  },
+  {
+    "image": "https://i.ibb.co/MkQ23cGk/image.jpg",
+    "answer": ["mounie", "steve", "steve mounie"]
+  },
+  {
+    "image": "",
+    "answer": ["adilehou", "olivier", "olivier adilehou"]
+  },
+  {
+    "image": "https://i.ibb.co/s9yMQzQx/image.jpg",
+    "answer": ["aboubakar", "vincent", "vincent aboubakar"]
+  },
+  {
+    "image": "https://i.ibb.co/b567vFxQ/image.jpg",
+    "answer": ["ekambi", "karl toko", "karl toko ekambi"]
+  },
+  {
+    "image": "https://i.ibb.co/ZRgWsYT5/image.jpg",
+    "answer": ["haller", "sebastien", "sebastien haller"]
+  },
+  {
+    "image": "https://i.ibb.co/N6h7myn7/image.jpg",
+    "answer": ["kessie", "franck", "franck kessie"]
+  },
+  {
+    "image": "https://i.ibb.co/Jj6k0GXd/image.jpg",
+    "answer": ["traore", "bertrand", "bertrand traore"]
+  },
+  {
+    "image": "",
+    "answer": ["dayo", "issa", "issa dayo"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/yFGF8bQc/image.jpg",
+    "answer": ["courtois", "thibaut", "thibaut courtois"]
+  },
+  {
+    "image": "https://i.ibb.co/20M0RT5g/image.jpg",
+    "answer": ["ter stegen", "marc andre", "marc-andre", "marc andre ter stegen", "marc-andre ter stegen"]
+  },
+  {
+    "image": "https://i.ibb.co/jvMSVPnY/image.jpg",
+    "answer": ["alisson", "alisson becker", "becker"]
+  },
+  {
+    "image": "https://i.ibb.co/gZdQjHVs/image.jpg",
+    "answer": ["ederson", "ederson moraes", "moraes"]
+  },
+  {
+    "image": "https://i.ibb.co/HDbRG502/image.jpg",
+    "answer": ["onana", "andre", "andre onana"]
+  },
+  {
+    "image": "https://i.ibb.co/JRy4GXmV/image.jpg",
+    "answer": ["donarumma", "donnarumma", "gianluigi", "gianluigi donnarumma"]
+  },
+  {
+    "image": "https://i.ibb.co/2R1RFXR/image.jpg",
+    "answer": ["oblak", "jan", "jan oblak"]
+  },
+  {
+    "image": "https://i.ibb.co/VGDg69c/image.jpg",
+    "answer": ["neuer", "manuel", "manuel neuer"]
+  },
+  {
+    "image": "https://i.ibb.co/JwX6QPJk/image.jpg",
+    "answer": ["de gea", "david", "david de gea"]
+  },
+  {
+    "image": "https://i.ibb.co/NgF6bH2p/image.jpg",
+    "answer": ["lloris", "hugo", "hugo lloris"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/PGChwqxz/image.jpg",
+    "answer": ["ancelotti", "carlo", "carlo ancelotti"]
+  },
+  {
+    "image": "https://i.ibb.co/nqWKwZxy/image.jpg",
+    "answer": ["hernandez", "xavi", "xavi hernandez"]
+  },
+  {
+    "image": "https://i.ibb.co/20TnMgNZ/image.jpg",
+    "answer": ["guardiola", "pep", "pep guardiola"]
+  },
+  {
+    "image": "https://i.ibb.co/F4zptVZ1/image.jpg",
+    "answer": ["klopp", "jurgen", "jurgen klopp"]
+  },
+  {
+    "image": "https://i.ibb.co/YTKsgptF/image.jpg",
+    "answer": ["arteta", "mikel", "mikel arteta"]
+  },
+  {
+    "image": "https://i.ibb.co/6cLPGPPz/image.jpg",
+    "answer": ["nagelsmann", "julian", "julian nagelsmann"]
+  },
+  {
+    "image": "https://i.ibb.co/q394JGHb/image.jpg",
+    "answer": ["simeone", "diego", "diego simeone"]
+  },
+  {
+    "image": "https://i.ibb.co/rRy71wJC/image.jpg",
+    "answer": ["louis henrique", "louis", "louis henrique"]
+  },
+  {
+    "image": "https://i.ibb.co/N6ftD8CV/image.jpg",
+    "answer": ["tuchel", "thomas", "thomas tuchel"]
+  },
+  
+  {
+    "image": "https://i.ibb.co/8DZNhCQt/image.jpg",
+    "answer": ["merdi", "madimba", "merdi madimba"]
+  },
+  {
+    "image": "https://i.ibb.co/67L6Xvbd/image.jpg",
+    "answer": ["arda güller", "Arda Güller", "Arda Guller"]
+  },
+  {
+    "image": "https://i.ibb.co/Y4ZMQ0B7/image.jpg",
+    "answer": ["désiré doué", "Désiré Doué", "Desire Doue"]
+  },
+  {
+    "image": "https://i.ibb.co/Rp7M5SzG/image.jpg",
+    "answer": ["barcola", "Joschua Barcola", "Joschua Barcola"]
+  },
+  {
+    "image": "https://i.ibb.co/SXwvxSkt/image.jpg",
+    "answer": ["dembélé", "Ousmane Dembélé", "Ousmane Dembele"]
+  },
+  {
+    "image": "https://i.ibb.co/jqzpyj1/image.jpg",
+    "answer": ["de bruyne", "Kevin De Bruyne", "Kevin de Bruyne"]
+  },
+  {
+    "image": "https://i.ibb.co/04MfK5F/image.jpg",
+    "answer": ["lukaku", "Romelu Lukaku", "Romelu Lukaku"]
+  },
+  {
+    "image": "https://i.ibb.co/MkDNBRN7/image.jpg",
+    "answer": ["lautaro", "Lautaro Martínez", "Lautaro Martinez"]
+  },
+  {
+    "image": "https://i.ibb.co/xS97KJMD/image.jpg",
+    "answer": ["saka", "Bukayo Saka", "Bukayo Saka"]
+  },
+  {
+    "image": "https://i.ibb.co/CKWwjDn4/image.jpg",
+    "answer": ["raphinha", "Raphinha de Souza", "Raphinha Souza"]
+  }
+]

@@ -1,0 +1,284 @@
+[
+  { "question": "Q/ Qui est le protagoniste de Lazarus ?", "answer": ["Lazarus", "Lazarus"] },
+  { "question": "Q/ Qui est le protagoniste de Zetman ?", "answer": ["Jin Kanzaki", "Jin"] },
+  { "question": "Q/ Qui est le protagoniste de Ajin ?", "answer": ["Kei Nagai", "Kei"] },
+  { "question": "Q/ Qui est le protagoniste de Biomega ?", "answer": ["Zoichi Kanoe", "Zoichi"] },
+  { "question": "Q/ Qui est le protagoniste de Blame! ?", "answer": ["Killy", "Killy"] },
+  { "question": "Q/ Qui est le protagoniste de Eden: It's an Endless World ?", "answer": ["Elijah", "Elijah"] },
+  { "question": "Q/ Qui est le protagoniste de Dogs: Bullets & Carnage ?", "answer": ["Heine Rammsteiner", "Heine"] },
+  { "question": "Q/ Qui est le protagoniste de Gantz ?", "answer": ["Kei Kurono", "Kei"] },
+  { "question": "Q/ Qui est le protagoniste de Akumetsu ?", "answer": ["Shou", "Shou"] },
+  { "question": "Q/ Qui est le protagoniste de Spriggan ?", "answer": ["Yu Ominae", "Yu"] },
+  { "question": "Q/ Qui est le protagoniste de Noise ?", "answer": ["Shuu", "Shuu"] },
+  { "question": "Q/ Qui est le protagoniste de 20th Century Boys ?", "answer": ["Kenji Endo", "Kenji"] },
+  { "question": "Q/ Qui est le protagoniste de Deathco ?", "answer": ["Deathco", "Deathco"] },
+  { "question": "Q/ Qui est le protagoniste de Shamo ?", "answer": ["Ryo Narushima", "Ryo"] },
+  { "question": "Q/ Qui est le protagoniste de Tokyo ESP ?", "answer": ["Rinka Urushiba", "Rinka"] },
+  { "question": "Q/ Qui est le protagoniste de Berserk ?", "answer": ["Guts", "Guts"] },
+  { "question": "Q/ Qui est le protagoniste de Pluto ?", "answer": ["Gesicht", "Gesicht"] },
+  { "question": "Q/ Qui est le protagoniste de Claymore ?", "answer": ["Clare", "Clare"] },
+  { "question": "Q/ Qui est le protagoniste de Bokurano ?", "answer": ["Jun Ushiro", "Jun"] },
+  { "question": "Q/ Qui est le protagoniste de Sanctuary ?", "answer": ["Akira Hojo", "Akira"] },
+  { "question": "Q/ Qui est le protagoniste de Witch Hunter ?", "answer": ["Tasha Godspell", "Tasha"] },
+  { "question": "Q/ Qui est le protagoniste de Noise ?", "answer": ["Shuu", "Shuu"] },
+  { "question": "Q/ Qui est le protagoniste de Angel Densetsu ?", "answer": ["Seiichirou Kitano", "Seiichirou"] },
+  { "question": "Q/ Qui est le protagoniste de Rainbow ?", "answer": ["Takahashi Seiichi", "Seiichi"] },
+  { "question": "Q/ Qui est le protagoniste de Sanctuary ?", "answer": ["Chiaki Asami", "Chiaki"] },
+  { "question": "Q/ Qui est le protagoniste de Holyland ?", "answer": ["Yuu Kamishiro", "Yuu"] },
+  { "question": "Q/ Qui est le protagoniste de Domu ?", "answer": ["Le vieil homme", "Domu"] },
+  { "question": "Q/ Qui est le protagoniste de Pluto ?", "answer": ["Gesicht", "Gesicht"] },
+  { "question": "Q/ Qui est le protagoniste de The Breaker ?", "answer": ["Shiwoon Yi", "Shiwoon"] },
+  { "question": "Q/ Qui est le protagoniste de Tower of God ?", "answer": ["Bam", "Twenty-Fifth Bam"] },
+  
+  { "question": "Q/ Qui est le protagoniste de Sword Art Online ?", "answer": ["Kirito", "Kazuto Kirigaya"] },
+  { "question": "Q/ Qui est le protagoniste de Vinland Saga ?", "answer": ["Thorfinn", "Thorfinn Karlsefni"] },
+  { "question": "Q/ Qui est le protagoniste de That Time I Got Reincarnated as a Slime ?", "answer": ["Rimuru Tempest", "Rimuru"] },
+  { "question": "Q/ Qui est le protagoniste de Re:Zero ?", "answer": ["Subaru Natsuki", "Subaru"] },
+  { "question": "Q/ Qui est le protagoniste de Akame ga Kill ?", "answer": ["Tatsumi", "Tatsumi"] },
+  { "question": "Q/ Qui est le protagoniste de Blue Lock ?", "answer": ["Yoichi Isagi", "Isagi"] },
+  { "question": "Q/ Qui est le protagoniste de Black Lagoon ?", "answer": ["Rock", "Rokuro Okajima"] },
+  { "question": "Q/ Qui est le protagoniste de Noragami ?", "answer": ["Yato", "Yato"] },
+  { "question": "Q/ Qui est le protagoniste de D.Gray-man ?", "answer": ["Allen Walker", "Allen"] },
+  { "question": "Q/ Qui est le protagoniste de The Rising of the Shield Hero ?", "answer": ["Naofumi Iwatani", "Naofumi"] },
+  { "question": "Q/ Qui est le protagoniste de Dr. Stone ?", "answer": ["Senku Ishigami", "Senku"] },
+  { "question": "Q/ Qui est le protagoniste de Tokyo Revengers ?", "answer": ["Takemichi Hanagaki", "Takemichi"] },
+  { "question": "Q/ Qui est le protagoniste de Ao no Exorcist ?", "answer": ["Rin Okumura", "Rin"] },
+  { "question": "Q/ Qui est le protagoniste de Fire Force ?", "answer": ["Shinra Kusakabe", "Shinra"] },
+  { "question": "Q/ Qui est le protagoniste de The God of High School ?", "answer": ["Jin Mori", "Mori"] },
+  { "question": "Q/ Qui est le protagoniste de Boku no Pico ?", "answer": ["Pico", "Pico"] },
+  { "question": "Q/ Qui est le protagoniste de Magi ?", "answer": ["Aladdin", "Aladdin"] },
+  { "question": "Q/ Qui est le protagoniste de Claymore ?", "answer": ["Clare", "Clare"] },
+  { "question": "Q/ Qui est le protagoniste de Goblin Slayer ?", "answer": ["Goblin Slayer", "GS"] },
+  { "question": "Q/ Qui est le protagoniste de Seraph of the End ?", "answer": ["Yuuichirou Hyakuya", "Yuu"] },
+  { "question": "Q/ Qui est le protagoniste de KonoSuba ?", "answer": ["Kazuma Satou", "Kazuma"] },
+  { "question": "Q/ Qui est le protagoniste de Overlord ?", "answer": ["Ainz Ooal Gown", "Momonga"] },
+  { "question": "Q/ Qui est le protagoniste de No Game No Life ?", "answer": ["Sora", "Sora"] },
+  { "question": "Q/ Qui est le protagoniste de Goblin Slayer ?", "answer": ["Goblin Slayer", "GS"] },
+  { "question": "Q/ Qui est le protagoniste de Log Horizon ?", "answer": ["Shiroe", "Shiroe"] },
+  { "question": "Q/ Qui est le protagoniste de The Seven Deadly Sins ?", "answer": ["Meliodas", "Meliodas"] },
+  { "question": "Q/ Qui est le protagoniste de Hellsing ?", "answer": ["Alucard", "Alucard"] },
+  { "question": "Q/ Qui est le protagoniste de Parasyte ?", "answer": ["Shinichi Izumi", "Shinichi"] },
+  { "question": "Q/ Qui est le protagoniste de Erased ?", "answer": ["Satoru Fujinuma", "Satoru"] },
+  { "question": "Q/ Qui est le protagoniste de Akudama Drive ?", "answer": ["Courier", "Courier"] },
+  { "question": "Q/ Qui est le protagoniste de The Ancient Magus’ Bride ?", "answer": ["Chise Hatori", "Chise"] },
+  { "question": "Q/ Qui est le protagoniste de Paranoia Agent ?", "answer": ["Shounen Bat", "Lil' Slugger"] },
+  { "question": "Q/ Qui est le protagoniste de Psycho-Pass ?", "answer": ["Akane Tsunemori", "Akane"] },
+  { "question": "Q/ Qui est le protagoniste de Mob Psycho 100 ?", "answer": ["Shigeo Kageyama", "Mob"] },
+  { "question": "Q/ Qui est le protagoniste de Fate/Stay Night ?", "answer": ["Shirou Emiya", "Shirou"] },
+  { "question": "Q/ Qui est le protagoniste de Fate/Zero ?", "answer": ["Kiritsugu Emiya", "Kiritsugu"] },
+  { "question": "Q/ Qui est le protagoniste de Elfen Lied ?", "answer": ["Lucy", "Kaede"] },
+  { "question": "Q/ Qui est le protagoniste de Great Pretender ?", "answer": ["Makoto Edamura", "Edamura"] },
+  { "question": "Q/ Qui est le protagoniste de Paranoia Agent ?", "answer": ["Shounen Bat", "Lil' Slugger"] },
+  { "question": "Q/ Qui est le protagoniste de Ajin ?", "answer": ["Kei Nagai", "Kei"] },
+  { "question": "Q/ Qui est le protagoniste de Made in Abyss ?", "answer": ["Riko", "Riko"] },
+  { "question": "Q/ Qui est le protagoniste de Golden Kamuy ?", "answer": ["Saichi Sugimoto", "Sugimoto"] },
+  { "question": "Q/ Qui est le protagoniste de Black Bullet ?", "answer": ["Rentaro Satomi", "Rentaro"] },
+  { "question": "Q/ Qui est le protagoniste de Zatch Bell ?", "answer": ["Kiyo Takamine", "Kiyo"] },
+  { "question": "Q/ Qui est le protagoniste de Kaze no Stigma ?", "answer": ["Kazuma Yagami", "Kazuma"] },
+  { "question": "Q/ Qui est le protagoniste de Charlotte ?", "answer": ["Yuu Otosaka", "Yuu"] },
+  { "question": "Q/ Qui est le protagoniste de No Guns Life ?", "answer": ["Juzo Inui", "Juzo"] },
+  { "question": "Q/ Qui est le protagoniste de To Your Eternity ?", "answer": ["Fushi", "Fushi"] },
+  { "question": "Q/ Qui est le protagoniste de Shakugan no Shana ?", "answer": ["Shana", "Shana"] },
+  { "question": "Q/ Qui est le protagoniste de Witch Hunter Robin ?", "answer": ["Robin Sena", "Robin"] },
+  { "question": "Q/ Qui est le protagoniste de Ergo Proxy ?", "answer": ["Vincent Law", "Vincent"] },
+  { "question": "Q/ Qui est le protagoniste de 91 Days ?", "answer": ["Avilio Bruno", "Avilio"] },
+  
+  {
+    "question": "Q/ Qui est le protagoniste principal de Naruto ?",
+    "answer": ["Naruto Uzumaki", "Naruto"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de One Piece ?",
+    "answer": ["Monkey D. Luffy", "Luffy"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Dragon Ball ?",
+    "answer": ["Son Goku", "Goku"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Bleach ?",
+    "answer": ["Ichigo Kurosaki", "Ichigo"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de My Hero Academia ?",
+    "answer": ["Izuku Midoriya", "Deku"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Black Clover ?",
+    "answer": ["Asta", "Astha"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Fairy Tail ?",
+    "answer": ["Natsu Dragneel", "Natsu"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Tokyo Revengers ?",
+    "answer": ["Takemichi Hanagaki", "Takemichi"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Demon Slayer ?",
+    "answer": ["Tanjiro Kamado", "Tanjiro"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de One Punch Man ?",
+    "answer": ["Saitama", "One Punch Man"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Hunter x Hunter ?",
+    "answer": ["Gon Freecss", "Gon"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Death Note ?",
+    "answer": ["Light Yagami", "Kira"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de JoJo's Bizarre Adventure Partie 1 ?",
+    "answer": ["Jonathan Joestar", "JoJo"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de JoJo's Bizarre Adventure Partie 3 ?",
+    "answer": ["Jotaro Kujo", "JoJo"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Blue Lock ?",
+    "answer": ["Yoichi Isagi", "Isagi"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Black Butler ?",
+    "answer": ["Ciel Phantomhive", "Ciel"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Re:Zero ?",
+    "answer": ["Subaru Natsuki", "Subaru"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Sword Art Online ?",
+    "answer": ["Kirito", "Kazuto Kirigaya"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Haikyuu !! ?",
+    "answer": ["Shoyo Hinata", "Hinata"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de The Seven Deadly Sins ?",
+    "answer": ["Meliodas", "Meliodas"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Chainsaw Man ?",
+    "answer": ["Denji", "Chainsaw Man"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Attack on Titan ?",
+    "answer": ["Eren Yeager", "Eren"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Tokyo Ghoul ?",
+    "answer": ["Ken Kaneki", "Kaneki"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Dr. Stone ?",
+    "answer": ["Senku Ishigami", "Senku"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Assassination Classroom ?",
+    "answer": ["Nagisa Shiota", "Nagisa"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de The Promised Neverland ?",
+    "answer": ["Emma", "Emma"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Fairy Gone ?",
+    "answer": ["Marlya M. Françoise", "Marlya"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Fire Force ?",
+    "answer": ["Shinra Kusakabe", "Shinra"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Vinland Saga ?",
+    "answer": ["Thorfinn", "Thorfinn"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Neon Genesis Evangelion ?",
+    "answer": ["Shinji Ikari", "Shinji"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Yu Yu Hakusho ?",
+    "answer": ["Yusuke Urameshi", "Yusuke"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Mob Psycho 100 ?",
+    "answer": ["Shigeo Kageyama", "Mob"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Your Lie in April ?",
+    "answer": ["Kosei Arima", "Kosei"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de The Rising of the Shield Hero ?",
+    "answer": ["Naofumi Iwatani", "Naofumi"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Made in Abyss ?",
+    "answer": ["Riko", "Riko"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de D.Gray-man ?",
+    "answer": ["Allen Walker", "Allen"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Soul Eater ?",
+    "answer": ["Maka Albarn", "Maka"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de The Quintessential Quintuplets ?",
+    "answer": ["Futaro Uesugi", "Futaro"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Kuroko's Basketball ?",
+    "answer": ["Tetsuya Kuroko", "Kuroko"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Jujutsu Kaisen ?",
+    "answer": ["Yuji Itadori", "Yuji"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Blue Exorcist ?",
+    "answer": ["Rin Okumura", "Rin"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Great Pretender ?",
+    "answer": ["Makoto Edamura", "Makoto"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Fullmetal Alchemist ?",
+    "answer": ["Edward Elric", "Edward"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Black Clover ?",
+    "answer": ["Asta", "Asta"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Dr. Stone ?",
+    "answer": ["Senku Ishigami", "Senku"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de One Piece ?",
+    "answer": ["Monkey D. Luffy", "Luffy"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Naruto Shippuden ?",
+    "answer": ["Naruto Uzumaki", "Naruto"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Bleach ?",
+    "answer": ["Ichigo Kurosaki", "Ichigo"]
+  },
+  {
+    "question": "Q/ Qui est le protagoniste principal de Dragon Ball Super ?",
+    "answer": ["Son Goku", "Goku"]
+  }
+  
+    
+]
