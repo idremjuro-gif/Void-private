@@ -1,0 +1,714 @@
+[
+  { "question": "qui a peint la joconde ?", "answer": "léonard de vinci" },
+  { "question": "quelle est la capitale de l’australie ?", "answer": "canberra" },
+  { "question": "en quelle année a eu lieu la révolution française ?", "answer": "1789" },
+  { "question": "quel est le plus grand océan du monde ?", "answer": "pacifique" },
+  { "question": "qui a écrit roméo et juliette ?", "answer": "shakespeare" },
+  { "question": "quelle est la planète la plus proche du soleil ?", "answer": "mercure" },
+  { "question": "qui a découvert l’amérique en 1492 ?", "answer": "christophe colomb" },
+  { "question": "quelle est la capitale du canada ?", "answer": "ottawa" },
+  { "question": "qui a peint le plafond de la chapelle sixtine ?", "answer": "michel ange" },
+  { "question": "quelle est la formule chimique de l’eau ?", "answer": "h2o" },
+  { "question": "quelle est la monnaie du japon ?", "answer": "yen" },
+  { "question": "dans quel pays se trouve la pyramide de khéops ?", "answer": "egypte" },
+  { "question": "qui a écrit l’iliade et l’odyssée ?", "answer": "homère" },
+  { "question": "quelle est la capitale du brésil ?", "answer": "brasilia" },
+  { "question": "combien de continents y a-t-il ?", "answer": "7" },
+  { "question": "quelle est la capitale de l’inde ?", "answer": "new delhi" },
+  { "question": "quelle est la vitesse de la lumière en km/s ?", "answer": "300000" },
+  { "question": "qui est le dieu du tonnerre dans la mythologie nordique ?", "answer": "thor" },
+  { "question": "qui a inventé l’ampoule électrique ?", "answer": "thomas edison" },
+  { "question": "quelle est la capitale de la chine ?", "answer": "pékin" },
+  { "question": "quelle est la plus grande planète du système solaire ?", "answer": "jupiter" },
+  { "question": "qui a écrit les misérables ?", "answer": "victor hugo" },
+  { "question": "quelle est la capitale de l’italie ?", "answer": "rome" },
+  { "question": "qui a découvert la pénicilline ?", "answer": "alexander fleming" },
+  { "question": "quelle est la langue officielle du brésil ?", "answer": "portugais" },
+  { "question": "quelle est la capitale de l’argentine ?", "answer": "buenos aires" },
+  { "question": "qui a peint les tournesols ?", "answer": "van gogh" },
+  { "question": "quelle est la capitale de l’allemagne ?", "answer": "berlin" },
+  { "question": "quel est le métal le plus léger ?", "answer": "lithium" },
+  { "question": "quelle est la capitale de l’espagne ?", "answer": "madrid" },
+  { "question": "quel scientifique a développé la théorie de la relativité ?", "answer": "einstein" },
+  { "question": "quelle est la capitale de la russie ?", "answer": "moscou" },
+  { "question": "qui a écrit candide ?", "answer": "voltaire" },
+  { "question": "quelle est la capitale de la turquie ?", "answer": "ankara" },
+  { "question": "qui est le dieu grec de la mer ?", "answer": "posidon" },
+  { "question": "quelle est la capitale de l’egypte ?", "answer": "le caire" },
+  { "question": "combien de joueurs y a-t-il dans une équipe de football ?", "answer": "11" },
+  { "question": "quelle est la capitale de la corée du sud ?", "answer": "séoul" },
+  { "question": "quelle est la montagne la plus haute du monde ?", "answer": "everest" },
+  { "question": "quelle est la capitale du mexique ?", "answer": "mexico" },
+  { "question": "quel est l’organe qui pompe le sang ?", "answer": "coeur" },
+  { "question": "quelle est la capitale de l’afrique du sud ?", "answer": "pretoria" },
+  { "question": "quelle est la capitale du maroc ?", "answer": "rabat" },
+  { "question": "quelle est la capitale de la tunisie ?", "answer": "tunis" },
+  { "question": "quelle est la capitale de la grèce ?", "answer": "athènes" },
+  { "question": "qui a inventé l’avion ?", "answer": "frères wright" },
+  { "question": "quelle est la capitale du sénégal ?", "answer": "dakar" },
+  { "question": "qui a écrit germinal ?", "answer": "émile zola" },
+  { "question": "quelle est la capitale de la suède ?", "answer": "stockholm" },
+  { "question": "quel est l’animal terrestre le plus rapide ?", "answer": "guépard" },
+  { "question": "quelle est la capitale de la norvège ?", "answer": "oslo" },
+  { "question": "quelle est la capitale de la belgique ?", "answer": "bruxelles" },
+  { "question": "quelle est la capitale de la suisse ?", "answer": "berne" },
+  { "question": "quelle est la capitale du portugal ?", "answer": "lisbonne" },
+  { "question": "quelle est la capitale de la pologne ?", "answer": "varsovie" },
+  { "question": "quelle est la capitale de la hongrie ?", "answer": "budapest" },
+  { "question": "qui a écrit don quichotte ?", "answer": "cervantes" },
+  { "question": "quelle est la capitale de la république tchèque ?", "answer": "prague" },
+  { "question": "quelle est la capitale du nigéria ?", "answer": "abuja" },
+  { "question": "qui a inventé le téléphone ?", "answer": "graham bell" },
+  { "question": "quelle est la capitale du kenya ?", "answer": "nairobi" },
+  { "question": "quelle est la capitale de l’éthiopie ?", "answer": "addis abeba" },
+  { "question": "qui a écrit le petit prince ?", "answer": "antoine de saint exupéry" },
+  { "question": "quelle est la capitale du cameroun ?", "answer": "yaoundé" },
+  { "question": "quelle est la capitale du mali ?", "answer": "bamako" },
+  { "question": "quelle est la capitale de la côte d’ivoire ?", "answer": "yamoussoukro" },
+  { "question": "quelle est la capitale du tchad ?", "answer": "n’djamena" },
+  { "question": "quelle est la capitale du bénin ?", "answer": "porto novo" },
+  { "question": "quelle est la capitale du burkina faso ?", "answer": "ouagadougou" },
+  { "question": "qui a écrit la chartreuse de parme ?", "answer": "stendhal" },
+  { "question": "quelle est la capitale du congo brazzaville ?", "answer": "brazzaville" },
+  { "question": "quelle est la capitale de la rdc ?", "answer": "kinshasa" },
+  { "question": "quelle est la capitale du ghana ?", "answer": "accra" },
+  { "question": "quelle est la capitale de la zambie ?", "answer": "lusaka" },
+  { "question": "quelle est la capitale du zimbabwe ?", "answer": "harare" },
+  { "question": "quelle est la capitale de l’ouganda ?", "answer": "kampala" },
+  { "question": "quelle est la capitale de la tanzanie ?", "answer": "dodoma" },
+  { "question": "qui est le dieu romain de la guerre ?", "answer": "mars" },
+  { "question": "quelle est la capitale de l’algérie ?", "answer": "alger" },
+  { "question": "quelle est la capitale de la libye ?", "answer": "tripoli" },
+  { "question": "quelle est la capitale du soudan ?", "answer": "khartoum" },
+  { "question": "quelle est la capitale du soudan du sud ?", "answer": "djouba" },
+  { "question": "quelle est la capitale du togo ?", "answer": "lomé" },
+  { "question": "quelle est la capitale du gabon ?", "answer": "libreville" },
+  { "question": "quelle est la capitale de la guinée ?", "answer": "conakry" },
+  { "question": "quelle est la capitale du nigér ?", "answer": "niamey" },
+  { "question": "quelle est la capitale de la mauritanie ?", "answer": "nouakchott" },
+  { "question": "quelle est la capitale du mozambique ?", "answer": "maputo" },
+  { "question": "quelle est la capitale de madagascar ?", "answer": "antananarivo" },
+  { "question": "quelle est la capitale de la somalie ?", "answer": "mogadiscio" },
+  { "question": "quelle est la capitale de l’angola ?", "answer": "luanda" },
+  { "question": "quelle est la capitale de la guinée équatoriale ?", "answer": "malabo" },
+  { "question": "quelle est la capitale du rwanda ?", "answer": "kigali" },
+  { "question": "quelle est la capitale du burundi ?", "answer": "gitega" },
+  { "question": "qui est l’auteur de la divine comédie ?", "answer": "dante" },
+  { "question": "quelle est la capitale du paraguay ?", "answer": "asuncion" },
+  { "question": "quelle est la capitale de l’uruguay ?", "answer": "montevideo" },
+  { "question": "quelle est la capitale du chili ?", "answer": "santiago" },
+  { "question": "quelle est la capitale du pérou ?", "answer": "lima" },
+  { "question": "quelle est la capitale de la bolivie ?", "answer": "la paz" },
+  
+  { "question": "qui a peint la joconde ?", "answer": "léonard de vinci" },
+  { "question": "quelle est la capitale de l’australie ?", "answer": "canberra" },
+  { "question": "en quelle année a eu lieu la révolution française ?", "answer": "1789" },
+  { "question": "quel est le plus grand océan du monde ?", "answer": "pacifique" },
+  { "question": "qui a écrit roméo et juliette ?", "answer": "shakespeare" },
+  { "question": "quelle est la planète la plus proche du soleil ?", "answer": "mercure" },
+  { "question": "qui a découvert l’amérique en 1492 ?", "answer": "christophe colomb" },
+  { "question": "quelle est la capitale du canada ?", "answer": "ottawa" },
+  { "question": "qui a peint le plafond de la chapelle sixtine ?", "answer": "michel ange" },
+  { "question": "quelle est la formule chimique de l’eau ?", "answer": "h2o" },
+  { "question": "quelle est la monnaie du japon ?", "answer": "yen" },
+  { "question": "dans quel pays se trouve la pyramide de khéops ?", "answer": "egypte" },
+  { "question": "qui a écrit l’iliade et l’odyssée ?", "answer": "homère" },
+  { "question": "quelle est la capitale du brésil ?", "answer": "brasilia" },
+  { "question": "combien de continents y a-t-il ?", "answer": "7" },
+  { "question": "quelle est la capitale de l’inde ?", "answer": "new delhi" },
+  { "question": "quelle est la vitesse de la lumière en km/s ?", "answer": "300000" },
+  { "question": "qui est le dieu du tonnerre dans la mythologie nordique ?", "answer": "thor" },
+  { "question": "qui a inventé l’ampoule électrique ?", "answer": "thomas edison" },
+  { "question": "quelle est la capitale de la chine ?", "answer": "pékin" },
+  { "question": "quelle est la plus grande planète du système solaire ?", "answer": "jupiter" },
+  { "question": "qui a écrit les misérables ?", "answer": "victor hugo" },
+  { "question": "quelle est la capitale de l’italie ?", "answer": "rome" },
+  { "question": "qui a découvert la pénicilline ?", "answer": "alexander fleming" },
+  { "question": "quelle est la langue officielle du brésil ?", "answer": "portugais" },
+  { "question": "quelle est la capitale de l’argentine ?", "answer": "buenos aires" },
+  { "question": "qui a peint les tournesols ?", "answer": "van gogh" },
+  { "question": "quelle est la capitale de l’allemagne ?", "answer": "berlin" },
+  { "question": "quel est le métal le plus léger ?", "answer": "lithium" },
+  { "question": "quelle est la capitale de l’espagne ?", "answer": "madrid" },
+  { "question": "quel scientifique a développé la théorie de la relativité ?", "answer": "einstein" },
+  { "question": "quelle est la capitale de la russie ?", "answer": "moscou" },
+  { "question": "qui a écrit candide ?", "answer": "voltaire" },
+  { "question": "quelle est la capitale de la turquie ?", "answer": "ankara" },
+  { "question": "qui est le dieu grec de la mer ?", "answer": "posidon" },
+  { "question": "quelle est la capitale de l’egypte ?", "answer": "le caire" },
+  { "question": "combien de joueurs y a-t-il dans une équipe de football ?", "answer": "11" },
+  { "question": "quelle est la capitale de la corée du sud ?", "answer": "séoul" },
+  { "question": "quelle est la montagne la plus haute du monde ?", "answer": "everest" },
+  { "question": "quelle est la capitale du mexique ?", "answer": "mexico" },
+  { "question": "quel est l’organe qui pompe le sang ?", "answer": "coeur" },
+  { "question": "quelle est la capitale de l’afrique du sud ?", "answer": "pretoria" },
+  { "question": "quelle est la capitale du maroc ?", "answer": "rabat" },
+  { "question": "quelle est la capitale de la tunisie ?", "answer": "tunis" },
+  { "question": "quelle est la capitale de la grèce ?", "answer": "athènes" },
+  { "question": "qui a inventé l’avion ?", "answer": "frères wright" },
+  { "question": "quelle est la capitale du sénégal ?", "answer": "dakar" },
+  { "question": "qui a écrit germinal ?", "answer": "émile zola" },
+  { "question": "quelle est la capitale de la suède ?", "answer": "stockholm" },
+  { "question": "quel est l’animal terrestre le plus rapide ?", "answer": "guépard" },
+  { "question": "quelle est la capitale de la norvège ?", "answer": "oslo" },
+  { "question": "quelle est la capitale de la belgique ?", "answer": "bruxelles" },
+  { "question": "quelle est la capitale de la suisse ?", "answer": "berne" },
+  { "question": "quelle est la capitale du portugal ?", "answer": "lisbonne" },
+  { "question": "quelle est la capitale de la pologne ?", "answer": "varsovie" },
+  { "question": "quelle est la capitale de la hongrie ?", "answer": "budapest" },
+  { "question": "qui a écrit don quichotte ?", "answer": "cervantes" },
+  { "question": "quelle est la capitale de la république tchèque ?", "answer": "prague" },
+  { "question": "quelle est la capitale du nigéria ?", "answer": "abuja" },
+  { "question": "qui a inventé le téléphone ?", "answer": "graham bell" },
+  { "question": "quelle est la capitale du kenya ?", "answer": "nairobi" },
+  { "question": "quelle est la capitale de l’éthiopie ?", "answer": "addis abeba" },
+  { "question": "qui a écrit le petit prince ?", "answer": "antoine de saint exupéry" },
+  { "question": "quelle est la capitale du cameroun ?", "answer": "yaoundé" },
+  { "question": "quelle est la capitale du mali ?", "answer": "bamako" },
+  { "question": "quelle est la capitale de la côte d’ivoire ?", "answer": "yamoussoukro" },
+  { "question": "quelle est la capitale du tchad ?", "answer": "n’djamena" },
+  { "question": "quelle est la capitale du bénin ?", "answer": "porto novo" },
+  { "question": "quelle est la capitale du burkina faso ?", "answer": "ouagadougou" },
+  { "question": "qui a écrit la chartreuse de parme ?", "answer": "stendhal" },
+  { "question": "quelle est la capitale du congo brazzaville ?", "answer": "brazzaville" },
+  { "question": "quelle est la capitale de la rdc ?", "answer": "kinshasa" },
+  { "question": "quelle est la capitale du ghana ?", "answer": "accra" },
+  { "question": "quelle est la capitale de la zambie ?", "answer": "lusaka" },
+  { "question": "quelle est la capitale du zimbabwe ?", "answer": "harare" },
+  { "question": "quelle est la capitale de l’ouganda ?", "answer": "kampala" },
+  { "question": "quelle est la capitale de la tanzanie ?", "answer": "dodoma" },
+  { "question": "qui est le dieu romain de la guerre ?", "answer": "mars" },
+  { "question": "quelle est la capitale de l’algérie ?", "answer": "alger" },
+  { "question": "quelle est la capitale de la libye ?", "answer": "tripoli" },
+  { "question": "quelle est la capitale du soudan ?", "answer": "khartoum" },
+  { "question": "quelle est la capitale du soudan du sud ?", "answer": "djouba" },
+  { "question": "quelle est la capitale du togo ?", "answer": "lomé" },
+  { "question": "quelle est la capitale du gabon ?", "answer": "libreville" },
+  { "question": "quelle est la capitale de la guinée ?", "answer": "conakry" },
+  { "question": "quelle est la capitale du nigér ?", "answer": "niamey" },
+  { "question": "quelle est la capitale de la mauritanie ?", "answer": "nouakchott" },
+  { "question": "quelle est la capitale du mozambique ?", "answer": "maputo" },
+  { "question": "quelle est la capitale de madagascar ?", "answer": "antananarivo" },
+  { "question": "quelle est la capitale de la somalie ?", "answer": "mogadiscio" },
+  { "question": "quelle est la capitale de l’angola ?", "answer": "luanda" },
+  { "question": "quelle est la capitale de la guinée équatoriale ?", "answer": "malabo" },
+  { "question": "quelle est la capitale du rwanda ?", "answer": "kigali" },
+  { "question": "quelle est la capitale du burundi ?", "answer": "gitega" },
+  { "question": "qui est l’auteur de la divine comédie ?", "answer": "dante" },
+  { "question": "quelle est la capitale du paraguay ?", "answer": "asuncion" },
+  { "question": "quelle est la capitale de l’uruguay ?", "answer": "montevideo" },
+  { "question": "quelle est la capitale du chili ?", "answer": "santiago" },
+  { "question": "quelle est la capitale du pérou ?", "answer": "lima" },
+  { "question": "quelle est la capitale de la bolivie ?", "answer": "la paz" },
+  
+  { "question": "Q/ Qui est considéré comme le père du jazz ? 🎶MUSIQUE🎶", "answer": ["louis armstrong", "armstrong"] },
+  { "question": "Q/ Combien de joueurs composent une équipe de rugby à XV ? ⚽SPORT⚽", "answer": ["15", "quinze"] },
+  { "question": "Q/ Qui a réalisé le film '2001, l’Odyssée de l’espace' ? 🎬CINÉMA🎬", "answer": ["stanley kubrick", "kubrick"] },
+  { "question": "Q/ Quel est le premier homme à avoir marché sur la Lune ? 🚀ESPACE🚀", "answer": ["neil armstrong", "armstrong"] },
+  { "question": "Q/ Qui est le créateur de Microsoft ? 💻INFORMATIQUE💻", "answer": ["bill gates", "gates"] },
+  { "question": "Q/ Quel inventeur a créé la radio moderne ? 💡INVENTIONS💡", "answer": ["guglielmo marconi", "marconi"] },
+  { "question": "Q/ Quel est le plus grand volcan actif du monde ? 🌋GÉOLOGIE🌋", "answer": ["mauna loa", "mauna loa hawai"] },
+  { "question": "Q/ Qui est le fondateur de Facebook ? 💻INFORMATIQUE💻", "answer": ["mark zuckerberg", "zuckerberg"] },
+  { "question": "Q/ Quelle ville a accueilli les Jeux Olympiques de 2008 ? ⚽SPORT⚽", "answer": ["pékin", "beijing"] },
+  { "question": "Q/ Qui a écrit la symphonie n°9 'Ode à la joie' ? 🎶MUSIQUE🎶", "answer": ["beethoven", "ludwig van beethoven"] },
+  { "question": "Q/ Quel film a gagné l’Oscar du meilleur film en 1994 avec Tom Hanks ? 🎬CINÉMA🎬", "answer": ["forrest gump", "gump"] },
+  { "question": "Q/ Qui est le premier homme à avoir découvert la circulation sanguine ? 🧪SCIENCE MÉDICALE🧪", "answer": ["william harvey", "harvey"] },
+  { "question": "Q/ Quelle ville est surnommée 'la Big Apple' ? 🌍GÉOGRAPHIE🌍", "answer": ["new york", "new york city"] },
+  { "question": "Q/ Qui est l’auteur de l’opéra 'La Flûte enchantée' ? 🎶MUSIQUE🎶", "answer": ["mozart", "wolfgang amadeus mozart"] },
+  { "question": "Q/ Qui a remporté la Coupe du Monde de football en 1986 ? ⚽SPORT⚽", "answer": ["argentine", "albiceleste"] },
+  { "question": "Q/ Quel est le satellite naturel de la Terre ? 🚀ESPACE🚀", "answer": ["lune", "la lune"] },
+  { "question": "Q/ Qui a découvert la vaccination contre la rage ? 🧪SCIENCE MÉDICALE🧪", "answer": ["louis pasteur", "pasteur"] },
+  { "question": "Q/ Quel écrivain est l’auteur de 'Hamlet' ? 📚LITTÉRATURE📚", "answer": ["shakespeare", "william shakespeare"] },
+  { "question": "Q/ Quel est l’animal le plus grand ayant jamais vécu sur Terre ? 🦕ZOOLOGIE🦕", "answer": ["baleine bleue", "rorqual bleu"] },
+  { "question": "Q/ Qui a fondé l’empire mongol ? 📜HISTOIRE📜", "answer": ["gengis khan", "temüjin"] },
+  { "question": "Q/ Quelle est la boisson nationale du Japon ? 🍶GASTRONOMIE🍶", "answer": ["saké", "nihonshu"] },
+  { "question": "Q/ Quel est le premier film de Disney sorti en 1937 ? 🎬CINÉMA🎬", "answer": ["blanche neige", "snow white"] },
+  { "question": "Q/ Quel est le symbole chimique de l’or ? 🔬CHIMIE🔬", "answer": ["au", "or"] },
+  { "question": "Q/ Quel joueur de football est surnommé 'El Pibe de Oro' ? ⚽SPORT⚽", "answer": ["diego maradona", "maradona"] },
+  { "question": "Q/ Qui est le dieu de la guerre dans la mythologie grecque ? ⚡MYTHOLOGIE⚡", "answer": ["arès", "ares"] },
+  { "question": "Q/ Quelle est la capitale de la Corée du Nord ? 🌏CAPITAL PAYS🌏", "answer": ["pyongyang", "p’yŏngyang"] },
+  { "question": "Q/ Qui est le fondateur de l’empire romain selon la légende ? 📜HISTOIRE📜", "answer": ["romulus", "romulus et remus"] },
+  { "question": "Q/ Quel est le sport national du Japon ? ⚽SPORT⚽", "answer": ["sumo", "lutte sumo"] },
+  { "question": "Q/ Qui est l’auteur de 'L’Odyssée de l’espace' (roman) ? 📚LITTÉRATURE📚", "answer": ["arthur c. clarke", "clarke"] },
+  { "question": "Q/ Quelle molécule est la base de l’ADN ? 🧬BIOLOGIE🧬", "answer": ["nucléotide", "adn"] },
+  { "question": "Q/ Quel est le plus long fleuve du monde ? 🌍GÉOGRAPHIE🌍", "answer": ["nil", "amazon"] },
+  { "question": "Q/ Qui a inventé la théorie de l’évolution par sélection naturelle ? 🧪SCIENCE🧪", "answer": ["charles darwin", "darwin"] },
+  { "question": "Q/ Quel pays a inventé le papier ? 📜HISTOIRE📜", "answer": ["chine", "chinois"] },
+  { "question": "Q/ Qui a chanté 'Imagine' en 1971 ? 🎶MUSIQUE🎶", "answer": ["john lennon", "lennon"] },
+  { "question": "Q/ Quelle ville est surnommée 'la ville éternelle' ? 🌍GÉOGRAPHIE🌍", "answer": ["rome", "roma"] },
+  { "question": "Q/ Quel réalisateur a créé 'Inception' ? 🎬CINÉMA🎬", "answer": ["christopher nolan", "nolan"] },
+  { "question": "Q/ Quel est le nom du premier ordinateur commercialisé ? 💻INFORMATIQUE💻", "answer": ["univac", "univac i"] },
+  { "question": "Q/ Quel est le peintre du tableau 'Guernica' ? 🎨ART🎨", "answer": ["pablo picasso", "picasso"] },
+  { "question": "Q/ Quelle planète est surnommée 'l’étoile du berger' ? 🚀ESPACE🚀", "answer": ["vénus", "venus"] },
+  { "question": "Q/ Qui est l’auteur de 'L’Art de la guerre' ? 📚LITTÉRATURE📚", "answer": ["sun tzu", "sunzi"] },
+  { "question": "Q/ Quel est l’océan le plus petit du monde ? 🌍GÉOGRAPHIE🌍", "answer": ["arctique", "océan arctique"] },
+  { "question": "Q/ Quel est le plus grand mammifère terrestre ? 🦕ZOOLOGIE🦕", "answer": ["éléphant d’afrique", "éléphant"] },
+  { "question": "Q/ Qui a inventé la psychanalyse ? 🧠PSYCHOLOGIE🧠", "answer": ["sigmund freud", "freud"] },
+  { "question": "Q/ Quelle invention est attribuée à Alexander Graham Bell ? 💡INVENTIONS💡", "answer": ["téléphone", "le téléphone"] },
+  { "question": "Q/ Quel joueur détient le record de buts en Coupe du Monde de football ? ⚽SPORT⚽", "answer": ["miroslav klose", "klose"] },
+  { "question": "Q/ Quelle pierre précieuse est principalement extraite en Birmanie ? 💎MINÉRAUX💎", "answer": ["rubis", "ruby"] },
+  { "question": "Q/ Qui est l’auteur du tableau 'La Jeune fille à la perle' ? 🎨ART🎨", "answer": ["vermeer", "johannes vermeer"] },
+  { "question": "Q/ Quelle ville a accueilli les Jeux Olympiques de 1992 ? ⚽SPORT⚽", "answer": ["barcelone", "barcelona"] },
+  { "question": "Q/ Quelle est la capitale des Maldives ? 🌏CAPITAL PAYS🌏", "answer": ["malé", "male"] },
+  { "question": "Q/ Qui a écrit 'Les Fleurs du mal' ? 📚LITTÉRATURE📚", "answer": ["baudelaire", "charles baudelaire"] },
+  
+  { "question": "Q/ Quelle est la capitale du Kazakhstan ? 🌏CAPITAL PAYS🌏", "answer": ["noursoultan", "astana"] },
+  { "question": "Q/ Qui a proposé la loi de la gravitation universelle ? 🧪SCIENCE🧪", "answer": ["isaac newton", "newton"] },
+  { "question": "Q/ Quel est l’élément chimique dont le symbole est W ? 🔬CHIMIE🔬", "answer": ["tungstène", "wolfram"] },
+  { "question": "Q/ Quelle est la capitale de la Mongolie ? 🌏CAPITAL PAYS🌏", "answer": ["oulann bator", "ulan bator"] },
+  { "question": "Q/ Qui a écrit 'Le Prince' ? 📚LITTÉRATURE📚", "answer": ["machiarelli", "niccolo machiarelli"] },
+  { "question": "Q/ Quelle est la capitale de la Bolivie reconnue officiellement ? 🌏CAPITAL PAYS🌏", "answer": ["sucre", "la paz"] },
+  { "question": "Q/ Quelle est la langue officielle de l’Iran ? 🗣️LANGUES🗣️", "answer": ["persan", "farsi"] },
+  { "question": "Q/ Quel mathématicien a inventé le calcul infinitésimal en même temps que Newton ? ➗MATHS➗", "answer": ["leibniz", "gottfried leibniz"] },
+  { "question": "Q/ Quelle est la capitale du Bhoutan ? 🌏CAPITAL PAYS🌏", "answer": ["thimphou", "thimpu"] },
+  { "question": "Q/ Dans la mythologie grecque, qui est la déesse de la sagesse ? ⚡MYTHOLOGIE⚡", "answer": ["athéna", "minerve"] },
+  { "question": "Q/ Quelle est la capitale de la Papouasie-Nouvelle-Guinée ? 🌏CAPITAL PAYS🌏", "answer": ["port moresby", "moresby"] },
+  { "question": "Q/ Quel est l’organe humain qui produit l’insuline ? 🧬BIOLOGIE🧬", "answer": ["pancréas", "glande pancréatique"] },
+  { "question": "Q/ Qui est l’auteur de 'À la recherche du temps perdu' ? 📚LITTÉRATURE📚", "answer": ["marcel proust", "proust"] },
+  { "question": "Q/ Quelle est la capitale de l’Ouzbékistan ? 🌏CAPITAL PAYS🌏", "answer": ["tachkent", "tashkent"] },
+  { "question": "Q/ Quel physicien a découvert l’électron ? 🧪SCIENCE🧪", "answer": ["j.j thomson", "thomson"] },
+  { "question": "Q/ Quelle est la capitale du Sri Lanka ? 🌏CAPITAL PAYS🌏", "answer": ["sri jayawardenapura kotte", "kotte"] },
+  { "question": "Q/ Dans la mythologie égyptienne, qui est le dieu des morts ? ⚡MYTHOLOGIE⚡", "answer": ["osiris", "anubis"] },
+  { "question": "Q/ Qui a peint 'La Nuit étoilée' ? 🎨ART🎨", "answer": ["van gogh", "vincent van gogh"] },
+  { "question": "Q/ Quelle est la capitale du Turkménistan ? 🌏CAPITAL PAYS🌏", "answer": ["achgabat", "ashgabat"] },
+  { "question": "Q/ Qui a inventé l’imprimerie moderne en Europe ? 📜HISTOIRE📜", "answer": ["gutenberg", "johannes gutenberg"] },
+  { "question": "Q/ Quelle est la capitale du Népal ? 🌏CAPITAL PAYS🌏", "answer": ["katmandou", "kathmandu"] },
+  { "question": "Q/ Quel est le plus grand désert chaud du monde ? 🌍GÉOGRAPHIE🌍", "answer": ["sahara", "désert du sahara"] },
+  { "question": "Q/ Qui a écrit 'Crime et Châtiment' ? 📚LITTÉRATURE📚", "answer": ["dostoïevski", "fiodor dostoïevski"] },
+  { "question": "Q/ Quelle est la capitale de la Jordanie ? 🌏CAPITAL PAYS🌏", "answer": ["amman", "ammanne"] },
+  { "question": "Q/ Quel est l’organe du corps humain le plus lourd ? 🧬BIOLOGIE🧬", "answer": ["foie", "le foie"] },
+  { "question": "Q/ Qui a inventé la dynamite ? 🧪SCIENCE🧪", "answer": ["alfred nobel", "nobel"] },
+  { "question": "Q/ Quelle est la capitale du Laos ? 🌏CAPITAL PAYS🌏", "answer": ["vientiane", "vientiane city"] },
+  { "question": "Q/ Quel philosophe a écrit 'L’Être et le Néant' ? 🧠PHILOSOPHIE🧠", "answer": ["jean paul sartre", "sartre"] },
+  { "question": "Q/ Quelle est la capitale de l’Azerbaïdjan ? 🌏CAPITAL PAYS🌏", "answer": ["bakou", "baku"] },
+  { "question": "Q/ Quel physicien a découvert la radioactivité naturelle ? 🧪SCIENCE🧪", "answer": ["henri becquerel", "becquerel"] },
+  { "question": "Q/ Quelle est la capitale du Cambodge ? 🌏CAPITAL PAYS🌏", "answer": ["phnom penh", "penh"] },
+  { "question": "Q/ Quel écrivain français a reçu le prix Nobel en 1957 ? 📚LITTÉRATURE📚", "answer": ["albert camus", "camus"] },
+  { "question": "Q/ Quelle est la capitale du Yémen ? 🌏CAPITAL PAYS🌏", "answer": ["sanaa", "sana"] },
+  { "question": "Q/ Qui a formulé les lois du mouvement planétaire ? 🌍ASTRONOMIE🌍", "answer": ["kepler", "johannes kepler"] },
+  { "question": "Q/ Quelle est la capitale de la Birmanie (Myanmar) ? 🌏CAPITAL PAYS🌏", "answer": ["naypyidaw", "nay pyi taw"] },
+  { "question": "Q/ Qui est l’auteur de 'Ainsi parlait Zarathoustra' ? 🧠PHILOSOPHIE🧠", "answer": ["nietzsche", "friedrich nietzsche"] },
+  { "question": "Q/ Quelle est la capitale du Qatar ? 🌏CAPITAL PAYS🌏", "answer": ["doha", "ad dawha"] },
+  { "question": "Q/ Quel est l’élément chimique dont le symbole est Sb ? 🔬CHIMIE🔬", "answer": ["antimoine", "stibium"] },
+  { "question": "Q/ Quelle est la capitale du Kirghizistan ? 🌏CAPITAL PAYS🌏", "answer": ["bichkek", "bishkek"] },
+  { "question": "Q/ Qui est l’auteur de 'Les Frères Karamazov' ? 📚LITTÉRATURE📚", "answer": ["dostoïevski", "fiodor dostoïevski"] },
+  { "question": "Q/ Quelle est la capitale du Malawi ? 🌏CAPITAL PAYS🌏", "answer": ["lilongwe", "lilongué"] },
+  { "question": "Q/ Qui a découvert la planète Uranus ? 🌍ASTRONOMIE🌍", "answer": ["william herschel", "herschel"] },
+  { "question": "Q/ Quelle est la capitale de la Slovénie ? 🌏CAPITAL PAYS🌏", "answer": ["ljubljana", "ljubliane"] },
+  { "question": "Q/ Qui est le fondateur de la psychanalyse ? 🧠PSYCHOLOGIE🧠", "answer": ["sigmund freud", "freud"] },
+  { "question": "Q/ Quelle est la capitale du Lesotho ? 🌏CAPITAL PAYS🌏", "answer": ["maseru", "masero"] },
+  { "question": "Q/ Qui a écrit 'La Métamorphose' ? 📚LITTÉRATURE📚", "answer": ["franz kafka", "kafka"] },
+  { "question": "Q/ Quelle est la capitale de la Lituanie ? 🌏CAPITAL PAYS🌏", "answer": ["vilnius", "vilna"] },
+  { "question": "Q/ Quel chimiste a proposé le tableau périodique des éléments ? 🔬CHIMIE🔬", "answer": ["mendeleïev", "dmitri mendeleïev"] },
+  { "question": "Q/ Quelle est la capitale de l’Estonie ? 🌏CAPITAL PAYS🌏", "answer": ["tallinn", "talin"] },
+  { "question": "Q/ Quel philosophe a écrit 'Le Contrat social' ? 🧠PHILOSOPHIE🧠", "answer": ["rousseau", "jean jacques rousseau"] },
+  
+  { 
+    "question": "Q/ Quel médecin grec de l’Antiquité est surnommé le 'père de la médecine' ? \n\n🧪MÉDECINE ANTIQUE🧪", 
+    "answer": ["hippocrate", "hippocrates"] 
+  },
+  { 
+    "question": "Q/ Quelle civilisation a construit les lignes de Nazca visibles uniquement depuis le ciel ? \n\n🏺ARCHÉOLOGIE🏺", 
+    "answer": ["nazca", "civilisation nazca"] 
+  },
+  { 
+    "question": "Q/ Quel philosophe chinois est l’auteur du Tao Te King ? \n\n📜PHILOSOPHIE ORIENTALE📜", 
+    "answer": ["lao tseu", "laozi"] 
+  },
+  { 
+    "question": "Q/ Quelle est la plus grande mosquée d’Afrique, située en Côte d’Ivoire ? \n\n🏛️ARCHITECTURE RELIGIEUSE🏛️", 
+    "answer": ["mosquée de yamoussoukro", "grande mosquée de yamoussoukro"] 
+  },
+  { 
+    "question": "Q/ Quel est l’instrument de percussion ouest-africain en forme de calebasse recouverte de perles ? \n\n🥁MUSIQUE TRADITIONNELLE🥁", 
+    "answer": ["shekere", "chékeré"] 
+  },
+  { 
+    "question": "Q/ Quel peuple de l’Âge du fer en Europe est connu pour ses druides et ses oppida ? \n\n🏹CIVILISATIONS ANCIENNES🏹", 
+    "answer": ["celtes", "celte"] 
+  },
+  { 
+    "question": "Q/ Quelle est la montagne sacrée du Japon associée au shintoïsme ? \n\n⛰️SPIRITUALITÉ⛰️", 
+    "answer": ["fuji", "mont fuji"] 
+  },
+  { 
+    "question": "Q/ Quelle substance rare utilisée au Moyen Âge servait de pigment bleu très cher ? \n\n🎨ART ANCIEN🎨", 
+    "answer": ["lapis-lazuli", "ultramarine"] 
+  },
+  { 
+    "question": "Q/ Quel philosophe grec a enseigné Alexandre le Grand ? \n\n📚PHILOSOPHIE📚", 
+    "answer": ["aristote", "aristotle"] 
+  },
+  { 
+    "question": "Q/ Quel manuscrit irlandais du IXe siècle est célèbre pour ses enluminures chrétiennes ? \n\n📜MANUSCRITS📜", 
+    "answer": ["livre de kells", "book of kells"] 
+  },
+  { 
+    "question": "Q/ Quelle civilisation africaine a bâti la cité de Great Zimbabwe ? \n\n🏺HISTOIRE AFRICAINE🏺", 
+    "answer": ["royaume du zimbabwe", "civilisation zimbabwe"] 
+  },
+  { 
+    "question": "Q/ Quel philosophe indien a fondé le bouddhisme ? \n\n🧘RELIGIONS ASIATIQUES🧘", 
+    "answer": ["bouddha", "siddhartha gautama"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom du dieu égyptien à tête de faucon associé au soleil ? \n\n⚡MYTHOLOGIE ÉGYPTIENNE⚡", 
+    "answer": ["râ", "ra"] 
+  },
+  { 
+    "question": "Q/ Quel est l’édifice le plus haut construit par les Mayas à Tikal ? \n\n🏛️ARCHÉOLOGIE AMÉRIQUE🏛️", 
+    "answer": ["temple du grand jaguar", "temple i"] 
+  },
+  { 
+    "question": "Q/ Quelle pratique japonaise consiste à réparer la céramique cassée avec de l’or ? \n\n🎨ARTS TRADITIONNELS🎨", 
+    "answer": ["kintsugi", "kintsukuroi"] 
+  },
+  { 
+    "question": "Q/ Quelle légende nordique raconte la fin du monde et la bataille des dieux ? \n\n⚔️MYTHOLOGIE NORDIQUE⚔️", 
+    "answer": ["ragnarök", "ragnarok"] 
+  },
+  { 
+    "question": "Q/ Quelle science ancienne cherchait à transformer les métaux en or ? \n\n⚗️ALCHIMIE⚗️", 
+    "answer": ["alchimie", "alchemy"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom du plus ancien texte littéraire connu de l’humanité ? \n\n📚LITTÉRATURE ANCIENNE📚", 
+    "answer": ["épopée de gilgamesh", "gilgamesh"] 
+  },
+  { 
+    "question": "Q/ Quelle forteresse française fut prise le 14 juillet 1789 ? \n\n📜HISTOIRE FRANÇAISE📜", 
+    "answer": ["bastille", "prison de la bastille"] 
+  },
+  { 
+    "question": "Q/ Quel métal précieux était appelé 'larmes des dieux' dans l’Antiquité ? \n\n💎MINÉRAUX SACRÉS💎", 
+    "answer": ["ambre", "or jaune"] 
+  },
+  
+  { 
+    "question": "Q/ Quelle langue construite par Ludwik Zamenhof en 1887 visait à devenir universelle ? \n\n🌐LINGUISTIQUE🌐", 
+    "answer": ["espéranto", "esperanto"] 
+  },
+  { 
+    "question": "Q/ Quel explorateur chinois du XVe siècle a mené d’immenses expéditions maritimes avant Christophe Colomb ? \n\n🚢EXPLORATIONS🚢", 
+    "answer": ["zheng he", "cheng ho"] 
+  },
+  { 
+    "question": "Q/ Quelle pierre semi-précieuse verte était sacrée chez les Aztèques ? \n\n💎MINÉRAUX💎", 
+    "answer": ["jade", "pierre de jade"] 
+  },
+  { 
+    "question": "Q/ Quel est l’instrument de musique traditionnel japonais à cordes pincées ressemblant à une cithare ? \n\n🎶MUSIQUE MONDE🎶", 
+    "answer": ["koto", "琴"] 
+  },
+  { 
+    "question": "Q/ Dans quelle ville se trouvait la bibliothèque d’Alexandrie ? \n\n📜HISTOIRE DU SAVOIR📜", 
+    "answer": ["alexandrie", "alexandria"] 
+  },
+  { 
+    "question": "Q/ Quel manuscrit médiéval reste indéchiffré et intrigue toujours les cryptographes ? \n\n🔐CRYPTOGRAPHIE🔐", 
+    "answer": ["manuscrit voynich", "voynich"] 
+  },
+  { 
+    "question": "Q/ Quel rite funéraire consistait à déposer les morts dans des tours du silence chez les zoroastriens ? \n\n☀️RELIGIONS ANCIENNES☀️", 
+    "answer": ["dokhma", "tour du silence"] 
+  },
+  { 
+    "question": "Q/ Quel navigateur polynésien est considéré comme un maître des techniques de navigation sans instruments ? \n\n🌊NAVIGATION🌊", 
+    "answer": ["mau pialug", "pialug"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom de la première écriture utilisée en Mésopotamie ? \n\n📜ARCHÉOLOGIE📜", 
+    "answer": ["cunéiforme", "écriture cunéiforme"] 
+  },
+  { 
+    "question": "Q/ Quelle épice rare était surnommée 'l’or rouge' et sert aussi de colorant naturel ? \n\n🌶️GASTRONOMIE🌶️", 
+    "answer": ["safran", "cro­cus"] 
+  },
+  { 
+    "question": "Q/ Quel peuple nomade d’Asie centrale utilisait le cheval comme base de sa culture guerrière ? \n\n🏹ANTHROPOLOGIE🏹", 
+    "answer": ["scythes", "scythe"] 
+  },
+  { 
+    "question": "Q/ Quelle est la première civilisation connue d’Amérique du Sud, antérieure aux Incas ? \n\n🏺CIVILISATIONS ANCIENNES🏺", 
+    "answer": ["chavín", "chavin"] 
+  },
+  { 
+    "question": "Q/ Quelle technique indienne ancienne de méditation est décrite dans le Yoga Sutra de Patanjali ? \n\n🧘SPIRITUALITÉ🧘", 
+    "answer": ["dhyana", "méditation dhyana"] 
+  },
+  { 
+    "question": "Q/ Quel métal était utilisé pour fabriquer les miroirs en Chine antique ? \n\n⚒️TECHNOLOGIE ANTIQUE⚒️", 
+    "answer": ["bronze", "alliage de bronze"] 
+  },
+  { 
+    "question": "Q/ Quelle créature mythique amérindienne est souvent représentée comme un immense oiseau tonnerre ? \n\n⚡MYTHOLOGIES DU MONDE⚡", 
+    "answer": ["oiseau-tonnerre", "thunderbird"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom de l’alphabet créé pour écrire la langue arménienne au Ve siècle ? \n\n🔠ÉCRITURES🔠", 
+    "answer": ["alphabet arménien", "mesrop mashtots"] 
+  },
+  { 
+    "question": "Q/ Quelle civilisation précolombienne a édifié la cité de Tikal au Guatemala ? \n\n🏺ARCHÉOLOGIE AMÉRIQUE🏺", 
+    "answer": ["maya", "civilisation maya"] 
+  },
+  { 
+    "question": "Q/ Quelle étoile était utilisée par les Vikings pour naviguer ? \n\n🌟ASTRONOMIE HISTORIQUE🌟", 
+    "answer": ["étoile polaire", "polaris"] 
+  },
+  { 
+    "question": "Q/ Quel roi d’Afrique a dirigé l’empire du Mali au XIVe siècle et est considéré comme l’un des hommes les plus riches de l’histoire ? \n\n👑HISTOIRE AFRICAINE👑", 
+    "answer": ["mansa musa", "kankou moussa"] 
+  },
+  { 
+    "question": "Q/ Quelle tradition médicale chinoise utilise des aiguilles pour équilibrer l’énergie vitale ? \n\n🧪MÉDECINE TRADITIONNELLE🧪", 
+    "answer": ["acupuncture", "针灸"] 
+  },
+  
+  { 
+    "question": "Q/ Quel mathématicien indien du XXe siècle a révolutionné la théorie des nombres malgré une carrière très courte ? \n\n📐MATHÉMATIQUES📐", 
+    "answer": ["srinivasa ramanujan", "ramanujan"] 
+  },
+  { 
+    "question": "Q/ Quel métal précieux était extrait du fleuve Pactole selon la légende du roi Midas ? \n\n⚡MYTHOLOGIE⚡", 
+    "answer": ["or", "gold"] 
+  },
+  { 
+    "question": "Q/ Quelle est la seule capitale au monde située à cheval sur deux continents ? \n\n🌍GÉOGRAPHIE🌍", 
+    "answer": ["istanbul", "constantinople"] 
+  },
+  { 
+    "question": "Q/ Dans quelle langue est rédigée la plus ancienne épopée connue, celle de Gilgamesh ? \n\n📚LITTÉRATURE📚", 
+    "answer": ["sumérien", "akkadien"] 
+  },
+  { 
+    "question": "Q/ Quelle molécule de l’ADN est la base complémentaire de la cytosine ? \n\n🧬BIOLOGIE🧬", 
+    "answer": ["guanine", "g"] 
+  },
+  { 
+    "question": "Q/ Quel scientifique arabe du Xe siècle est surnommé le père de l’optique ? \n\n🔬HISTOIRE DES SCIENCES🔬", 
+    "answer": ["alhazen", "ibn al-haytham"] 
+  },
+  { 
+    "question": "Q/ Quel philosophe présocratique affirmait que 'tout s’écoule' (panta rhei) ? \n\n📚PHILOSOPHIE📚", 
+    "answer": ["héraclite", "heraclitus"] 
+  },
+  { 
+    "question": "Q/ Quelle reine nubienne a résisté aux Romains sous Auguste ? \n\n🏺HISTOIRE ANTIQUE🏺", 
+    "answer": ["candace", "kandake"] 
+  },
+  { 
+    "question": "Q/ Quel peintre flamand du XVe siècle est considéré comme l’inventeur de la peinture à l’huile ? \n\n🎨ART🎨", 
+    "answer": ["jan van eyck", "van eyck"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom du satellite de Neptune découvert en 1846, quelques jours après la planète elle-même ? \n\n🚀ASTRONOMIE🚀", 
+    "answer": ["triton", "triton"] 
+  },
+  { 
+    "question": "Q/ Quelle est la capitale du Bhoutan, pays longtemps resté isolé ? \n\n🌏CAPITALES🌏", 
+    "answer": ["thimphou", "thimphu"] 
+  },
+  { 
+    "question": "Q/ Quel mathématicien grec a donné son nom à un fameux théorème sur les triangles rectangles ? \n\n📐MATHÉMATIQUES📐", 
+    "answer": ["pythagore", "pythagoras"] 
+  },
+  { 
+    "question": "Q/ Quelle écriture ancienne a été déchiffrée grâce à la pierre de Rosette ? \n\n📜ARCHÉOLOGIE📜", 
+    "answer": ["hiéroglyphes", "écriture égyptienne"] 
+  },
+  { 
+    "question": "Q/ Quel compositeur autrichien est surnommé 'le roi de la valse' ? \n\n🎶MUSIQUE🎶", 
+    "answer": ["johann strauss", "strauss fils"] 
+  },
+  { 
+    "question": "Q/ Quelle ville de la Route de la Soie était surnommée la 'perle de l’Orient' ? \n\n🌍HISTOIRE GÉO🌍", 
+    "answer": ["samarkand", "samarcande"] 
+  },
+  { 
+    "question": "Q/ Quelle déesse nordique est associée à l’amour et la guerre, et donne son nom au vendredi ? \n\n⚡MYTHOLOGIE⚡", 
+    "answer": ["freyja", "freya"] 
+  },
+  { 
+    "question": "Q/ Quel physicien a découvert le positron en 1932 ? \n\n🔬PHYSIQUE🔬", 
+    "answer": ["carl anderson", "anderson"] 
+  },
+  { 
+    "question": "Q/ Quelle civilisation mésoaméricaine a bâti la cité de Teotihuacan ? \n\n🏺CIVILISATIONS🏺", 
+    "answer": ["teotihuacans", "teotihuacain"] 
+  },
+  { 
+    "question": "Q/ Quel est le plus grand désert froid du monde ? \n\n🌍GÉOGRAPHIE🌍", 
+    "answer": ["antarctique", "antarctica"] 
+  },
+  { 
+    "question": "Q/ Qui a inventé le premier vaccin contre la rage ? \n\n🧪SCIENCE MÉDICALE🧪", 
+    "answer": ["louis pasteur", "pasteur"] 
+  },
+  
+  { 
+    "question": "Q/ Quel joueur de football a marqué le premier but en Coupe du Monde 1930 ? ⚽SPORT⚽", 
+    "answer": ["lucien laurent", "laurent"] 
+  },
+  { 
+    "question": "Q/ Quel réalisateur italien a remporté la Palme d’Or pour 'La Dolce Vita' ? 🎬CINÉMA🎬", 
+    "answer": ["federico fellini", "fellini"] 
+  },
+  { 
+    "question": "Q/ Quel compositeur est connu pour ses 'Variations Goldberg' ? 🎶MUSIQUE🎶", 
+    "answer": ["johann sebastian bach", "bach"] 
+  },
+  { 
+    "question": "Q/ Quel est le plus petit os du corps humain ? 🧪SCIENCE🧪", 
+    "answer": ["étrier", "stapes"] 
+  },
+  { 
+    "question": "Q/ Quel astronaute soviétique fut le premier à effectuer une sortie dans l’espace ? 🚀ESPACE🚀", 
+    "answer": ["alexeï leonov", "leonov"] 
+  },
+  { 
+    "question": "Q/ Quel écrivain français a écrit 'La Reine Margot' ? 📚LITTÉRATURE📚", 
+    "answer": ["alexandre dumas", "dumas"] 
+  },
+  { 
+    "question": "Q/ Quel peintre espagnol a réalisé 'Le Jardin des délices' ? 🎨ART🎨", 
+    "answer": ["hiéronymus bosch", "bosch"] 
+  },
+  { 
+    "question": "Q/ Quel est le premier élément du tableau périodique ? 🔬CHIMIE🔬", 
+    "answer": ["hydrogène", "h"] 
+  },
+  { 
+    "question": "Q/ Quel film de Stanley Kubrick est adapté du roman 'Dr. Strangelove' ? 🎬CINÉMA🎬", 
+    "answer": ["dr. strangelove", "dr strangelove"] 
+  },
+  { 
+    "question": "Q/ Quel scientifique a mis en évidence la loi de la gravitation universelle ? 🧪SCIENCE🧪", 
+    "answer": ["isaac newton", "newton"] 
+  },
+  { 
+    "question": "Q/ Quel compositeur russe a écrit 'Le Lac des cygnes' ? 🎶MUSIQUE🎶", 
+    "answer": ["piotr ilitch tchaïkovski", "tchaïkovski"] 
+  },
+  { 
+    "question": "Q/ Quel pays a remporté le premier championnat du monde de hockey sur glace en 1920 ? ⚽SPORT⚽", 
+    "answer": ["canada", "canadien"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom de la sonde qui a étudié Pluton en 2015 ? 🚀ESPACE🚀", 
+    "answer": ["new horizons", "new horizon"] 
+  },
+  { 
+    "question": "Q/ Quel auteur britannique a écrit 'Le Monde perdu' sur les dinosaures ? 📚LITTÉRATURE📚", 
+    "answer": ["arthur conan doyle", "conan doyle"] 
+  },
+  { 
+    "question": "Q/ Quel peintre hollandais est connu pour ses 'Autoportraits' et 'La Ronde de nuit' ? 🎨ART🎨", 
+    "answer": ["rembrandt", "rembrandt van rijn"] 
+  },
+  { 
+    "question": "Q/ Quel est le plus grand satellite de Saturne ? 🚀ESPACE🚀", 
+    "answer": ["titan", "saturne titan"] 
+  },
+  { 
+    "question": "Q/ Quel film français de 1966 a été réalisé par Louis Malle et raconte la guerre en Algérie ? 🎬CINÉMA🎬", 
+    "answer": ["lacombe lucien", "lacombe"] 
+  },
+  { 
+    "question": "Q/ Quel musicien a composé 'Clair de Lune' ? 🎶MUSIQUE🎶", 
+    "answer": ["claude debussy", "debussy"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom de l’étoile la plus proche du Soleil après Proxima Centauri ? 🚀ESPACE🚀", 
+    "answer": ["alpha centauri a", "rigel kent"] 
+  },
+  { 
+    "question": "Q/ Quel joueur a été le premier ballon d’or africain en 1995 ? ⚽SPORT⚽", 
+    "answer": ["george weah", "weah"] 
+  },
+  
+  { 
+    "question": "Q/ Quelle plante médicinale utilisée par les Mayas servait à traiter les fièvres et douleurs ? \n\n🌿ETHNOBOTANIQUE🌿", 
+    "answer": ["quina", "cinchona"] 
+  },
+  { 
+    "question": "Q/ Quelle créature légendaire d’Australie est décrite comme un serpent géant vivant dans les rivières ? \n\n🐍CRYPTOZOOLOGIE🐍", 
+    "answer": ["bunyaroo", "serpent arc-en-ciel"] 
+  },
+  { 
+    "question": "Q/ Quel type de temple aztèque était construit en terrasses et destiné aux sacrifices ? \n\n🏛️ARCHITECTURE ANCIENNE🏛️", 
+    "answer": ["pyramide à degrés", "teocalli"] 
+  },
+  { 
+    "question": "Q/ Quelle sculpture africaine traditionnelle est utilisée dans les rites de fertilité ? \n\n🎨ART TRIBAL🎨", 
+    "answer": ["fetiche", "fétiche africain"] 
+  },
+  { 
+    "question": "Q/ Quel instrument ancien permettait de mesurer la pression atmosphérique avant le baromètre moderne ? \n\n🔬INSTRUMENTS SCIENTIFIQUES🔬", 
+    "answer": ["torricelli", "tube de torricelli"] 
+  },
+  { 
+    "question": "Q/ Quelle langue morte était parlée dans l’ancienne Mésopotamie ? \n\n🗣️LANGUES MORTES🗣️", 
+    "answer": ["sumérien", "akkadien"] 
+  },
+  { 
+    "question": "Q/ Quel peuple d’Afrique centrale est célèbre pour ses tambours cérémoniels géants ? \n\n🥁FOLKLORE AFRICAIN🥁", 
+    "answer": ["baka", "pygmées baka"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom du symbole gravé sur les pierres du site de Stonehenge ? \n\n📜ARCHÉOLOGIE MONDIALE📜", 
+    "answer": ["triskèle", "triskel"] 
+  },
+  { 
+    "question": "Q/ Quelle plante aquatique d’Asie est utilisée pour fabriquer des nattes et des toits traditionnels ? \n\n🌾ETHNOBOTANIQUE🌾", 
+    "answer": ["roseau", "papyrus"] 
+  },
+  { 
+    "question": "Q/ Quel animal mythique des îles Fidji est décrit comme un crocodile géant de mer ? \n\n🐊CRYPTOZOOLOGIE🐊", 
+    "answer": ["taniwha", "taniwa"] 
+  },
+  { 
+    "question": "Q/ Quelle civilisation précolombienne utilisait des cercles de pierre astronomiques au Pérou ? \n\n🔭ASTRONOMIE ANCIENNE🔭", 
+    "answer": ["inca", "civilisation inca"] 
+  },
+  { 
+    "question": "Q/ Quelle statue polynésienne géante garde l’île de Pâques ? \n\n🎨ART TRIBAL🎨", 
+    "answer": ["moaï", "moai"] 
+  },
+  { 
+    "question": "Q/ Quel appareil ancien utilisait des poids et contrepoids pour mesurer le temps avec précision ? \n\n⏳INSTRUMENTS ANCIENS⏳", 
+    "answer": ["horloge à balancier", "balance horloge"] 
+  },
+  { 
+    "question": "Q/ Quelle plante médicinale africaine est utilisée pour traiter la malaria ? \n\n🌿ETHNOBOTANIQUE🌿", 
+    "answer": ["quinquina", "cinchona"] 
+  },
+  { 
+    "question": "Q/ Quelle créature légendaire est censée protéger les villages dans le folklore japonais ? \n\n🌀FOLKLORE ASIATIQUE🌀", 
+    "answer": ["kappa", "河童"] 
+  },
+  { 
+    "question": "Q/ Quel instrument antique permettait de mesurer la hauteur des étoiles au-dessus de l’horizon ? \n\n🔭INSTRUMENTS SCIENTIFIQUES🔭", 
+    "answer": ["astrolabe", "astrolabe ancien"] 
+  },
+  { 
+    "question": "Q/ Quel peuple amérindien construisait des maisons en bois rondées et recouvertes de boue ? \n\n🏠ARCHITECTURE TRADITIONNELLE🏠", 
+    "answer": ["iroquois", "iroquoise"] 
+  },
+  { 
+    "question": "Q/ Quel métal était utilisé pour fabriquer les premières aiguilles d’acupuncture en Chine ? \n\n🧪MÉDECINE TRADITIONNELLE🧪", 
+    "answer": ["or", "acier"] 
+  },
+  { 
+    "question": "Q/ Quel est le nom de l’artefact religieux utilisé dans les cérémonies vaudou haïtiennes ? \n\n📿RELIGIONS DU MONDE📿", 
+    "answer": ["poto mitan", "autel vaudou"] 
+  },
+  { 
+    "question": "Q/ Quelle langue ancienne est connue pour ses inscriptions sur les tablettes de l’île de Pâques ? \n\n🗣️LANGUES MORTES🗣️", 
+    "answer": ["rongorongo", "script rongorongo"] 
+  }
+  
+  
+  ]
+    
+
