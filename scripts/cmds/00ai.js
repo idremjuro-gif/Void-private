@@ -13,11 +13,11 @@ const fonts = {
 };
 
 const Prefixes = [
-  'ae',
+  'mei',
   'ai',
-  'mitama',
+  'meryl',
   'ask',
-  'mitantsoa', 
+  'merdi', 
 ];
 
 module.exports = {
@@ -43,16 +43,16 @@ module.exports = {
       if (!prompt) {
         await message.reply("");
 api.sendMessage({ sticker: "387545578037993" }, event.threadID);
-api.sendMessage("🟢 𝗛𝖾𝗅𝗅𝗈 JE PEUX FAIRE QUOI POUR TOI AJOURD'HUI🫡🫡⁉️" , event.threadID);
-api.setMessageReaction("🟡", event.messageID, () => {}, true);
+api.sendMessage("💎𝗠𝗘𝗥𝗬𝗟-𝗕𝗢𝗧💎\n\n𝘚𝘢𝘭𝘶𝘵 𝘫𝘦 𝘴𝘶𝘪𝘴 𝘷𝘰𝘵𝘳𝘦 𝘢𝘴𝘴𝘪𝘴𝘴𝘵𝘢𝘯𝘵𝘦 𝘱𝘰𝘶𝘳 𝘷𝘰𝘶𝘴 𝘴𝘦𝘳𝘷𝘪𝘳\n𝘘𝘶𝘦𝘭𝘭𝘦 𝘦𝘴𝘵 𝘷𝘰𝘵𝘳𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯⁉️" , event.threadID);
+api.setMessageReaction("🔆", event.messageID, () => {}, true);
         return;
       }
       const senderID = event.senderID;
       const senderInfo = await api.getUserInfo([senderID]);
       const senderName = senderInfo[senderID].name;
       const response = await axios.get(`https://api.kenliejugarap.com/freegpt4o8k/?question=${encodeURIComponent(prompt)}`);
-      const answer = `🟢 VOLDIGO ANOS ⚪ :\n\n${response.data.response} 🟡`;
-api.setMessageReaction("🟢", event.messageID, () => {}, true);
+      const answer = `🎯𝗕𝘆 𝗠𝗲𝗿𝗱𝗶🎯 :\n\n${response.data.response} 🔵`;
+api.setMessageReaction("✅", event.messageID, () => {}, true);
 
       //apply const font to each letter in the answer
       let formattedAnswer = "";
