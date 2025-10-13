@@ -2,10 +2,10 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "ai",
+    name: "gpt5",
     aliases: ["gpt", "chatgpt", "gpt5"],
     version: "1.2",
-    author: "Aryan Chauhan",
+    author: "Christus x Aesther",
     countDown: 5,
     role: 0,
     shortDescription: { en: "Chat with AI" },
