@@ -16,10 +16,10 @@
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["61568791604271"];
+ const permission = ["100065927401614"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
- "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ 𝚔-𝙰𝚉𝚄𝙼𝙰 ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
+ "🙅| Tu es fou vas boir de l'eau",
  event.threadID,
  event.messageID
  );
