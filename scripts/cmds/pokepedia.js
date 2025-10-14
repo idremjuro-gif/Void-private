@@ -1,4 +1,4 @@
-/cmd install pokepedia.js const axios = require('axios');
+const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
@@ -62,7 +62,7 @@ module.exports = {
     config: {
         name: 'pokepedia',
         aliases: ['pokemon', 'pokeinfo', 'pokémon'],
-        version: '2.0',
+        version: '5.0',
         author: 'Merdi Madimba',
         countDown: 5,
         role: 0,
@@ -165,9 +165,9 @@ module.exports = {
             const dex = poke.id;
 
             const message =
-`🌐 𝙋𝙊𝙆𝙀𝙋𝙀𝘿𝙄𝘼 🌐 — ${name} (N°${dex})
+`🌐 𝙋𝙊𝙆𝙀𝙋𝙀𝘿𝙄𝘼 — ${name} 🌐 (N°${dex})
 
-📝 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙚𝙣𝙧𝙞𝙘𝙝𝙞𝙨 :
+📝 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣 𝙚𝙣𝙧𝙞𝙘𝙝𝙞𝙚 :
 ${aiDescription}
 
 🔷 𝙏𝙮𝙥𝙚𝙨 : ${types}
@@ -175,12 +175,13 @@ ${aiDescription}
 📊 𝙎𝙩𝙖𝙩𝙨 :
 ${stats}
 
-📏 𝙏𝙖𝙞𝙡𝙡𝙚 : ${height_m} • ⚖️ 𝘗𝘰𝘪𝘥𝘴 : ${weight_kg}
-🌱 𝙃𝙖𝙗𝙞𝙩𝙖𝙩 : ${habitat} • 𝘎é𝘯é𝘳𝘢𝘵𝘪𝘰𝘯 : ${generation} • 𝘛𝘢𝘶𝘹 𝘥𝘦 𝘤𝘢𝘱𝘵𝘶𝘳𝘦 : ${captureRate}
+📏 𝙏𝙖𝙞𝙡𝙡𝙚 : ${height_m} • ⚖️ 𝙋𝙤𝙞𝙙𝙨 : ${weight_kg}
+🌱 𝙃𝙖𝙗𝙞𝙩𝙖𝙩 : ${habitat} • Génération : ${generation} • 𝙏𝙖𝙪𝙭 𝙙𝙚 𝙘𝙖𝙥𝙩𝙪𝙧𝙚 : ${captureRate}
 
-🔁 𝘾𝙝𝙖î𝙣𝙚 𝙙’é𝙫𝙤𝙡𝙪𝙩𝙞𝙤𝙣 : ${evolutionText}
+🔁 𝘾𝙝𝙖î𝙣𝙚 d’é𝙫𝙤𝙡𝙪𝙩𝙞𝙤𝙣 : ${evolutionText}
 
-💥 𝙈𝙤𝙪𝙫𝙚𝙢𝙚𝙣𝙩𝙨 𝙥𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙪𝙭 (Nom / Type) :
+💥 𝙈𝙤𝙪𝙫𝙚𝙢𝙚𝙣𝙩𝙨
+ 𝙥𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙪𝙭 (Nom / Type) :
 | Nom | Type |
 ${movesDetails.join('\n')}`;
 
