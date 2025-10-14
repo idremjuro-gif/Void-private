@@ -3,32 +3,40 @@ const axios = require('axios');
 
 const SUPABASE_URL = 'https://vflmcbbkksuiwxquommy.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZmbG1jYmJra3N1aXd4cXVvbW15Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA0NTU2OTMsImV4cCI6MjA3NjAzMTY5M30.Td1TEHFtycaUwwB5_-pgqmwn1xaVxQPxVF511-IWLIU';
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-
-// Gemini / Replicate API
-const GEMINI_API_KEY = 'AIzaSyBKKDpyaluhRCAh8ikvm-ZFJidtfKBCVNw';
 const REPLICATE_API_KEY = 'r8_68TK5E4rBuWhno024hPqxuNVakAgywU38tQVj';
-const GEMINI_MODEL = 'gemini-2.5-flash';
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+const pendingPlayers = {};
 
 module.exports = {
   config: {
     name: "eq",
     aliases: ["elfaliaquest", "EQ"],
-    version: "1.2",
+    version: "2.9",
     author: "Merdi Madimba",
     countDown: 5,
     role: 0,
-    shortDescription: "Lance Elfalia Quest et crée ton personnage"
+    shortDescription: "Lance Elfalia Quest et crée ton personnage",
+    longDescription: "Un jeu RPG où tu crées ton personnage et explores le monde d'Elfalia",
+    usage: "!eq",
+    category: "🎮 Jeu",
+    cooldown: 5
   },
 
-  onCall: async ({ api, event }) => {
+  onStart: async ({ api, event }) => {
     const uid = event.senderID;
     const threadID = event.threadID;
 
-    // Image de bienvenue
-    const welcomeImageUrl = "https://i.imgur.com/Wyl3Pz1.jpeg";
+    const welcomeMessage = `
+✨🧙‍♂️ Bienvenue dans Elfalia Quest ! ✨
 
-    // Vérifie si le joueur existe déjà
+Bienvenue, valeureux aventurier ! 🗡️🏹
+Pour répondre aux questions, **commence chaque réponse par !**
+Exemple : !Merdi, !Homme, !Guerrier
+`;
+
+    await api.sendMessage(welcomeMessage, threadID);
+
     const { data: existingPlayer } = await supabase
       .from('players')
       .select('*')
@@ -36,22 +44,13 @@ module.exports = {
       .single();
 
     if (existingPlayer) {
-      await api.sendMessage({
-        body: `👋 Bienvenue de retour, **${existingPlayer.player_name}** !`,
-        attachment: await api.getStreamFromURL(welcomeImageUrl)
-      }, threadID);
-
-      await api.sendMessage("Veux-tu recommencer ton personnage ? Réponds par oui/non.", threadID);
+      await api.sendMessage(
+        `👋 Bienvenue de retour, **${existingPlayer.player_name}** ! Veux-tu recommencer ton personnage ? Réponds par !oui / !non`,
+        threadID
+      );
       return;
     }
 
-    // Nouveau joueur : message de bienvenue
-    await api.sendMessage({
-      body: "🧙‍♂️ Bienvenue dans **Elfalia Quest** ! Commençons par créer ton personnage.",
-      attachment: await api.getStreamFromURL(welcomeImageUrl)
-    }, threadID);
-
-    // Questions interactives
     const questions = [
       { key: 'player_name', text: "1️⃣ Quel est ton nom de chasseur ?" },
       { key: 'sex', text: "2️⃣ Sexe ? (Homme / Femme / Autre)" },
@@ -63,62 +62,127 @@ module.exports = {
       { key: 'alignment', text: "8️⃣ Alignement ? (Lumière / Ombre)" }
     ];
 
-    const playerData = { uid };
-    let i = 0;
+    pendingPlayers[threadID] = {
+      uid,
+      data: { uid },
+      questions,
+      currentIndex: 0,
+      threadID,
+      timeoutId: null
+    };
 
-    const askQuestion = () => {
-      if (i >= questions.length) {
-        savePlayer();
+    const askNextQuestion = async () => {
+      const session = pendingPlayers[threadID];
+      if (!session) return;
+
+      if (session.currentIndex >= session.questions.length) {
+        await finalizePlayer(threadID, api);
         return;
       }
 
-      api.sendMessage(questions[i].text, threadID);
+      const question = session.questions[session.currentIndex];
+      await api.sendMessage(question.text, threadID);
 
-      const handleAnswer = async (answerEvent) => {
-        if (answerEvent.senderID !== uid) return;
-
-        playerData[questions[i].key] = answerEvent.body;
-        i++;
-        api.removeListener('message', handleAnswer);
-        askQuestion();
-      };
-
-      api.on('message', handleAnswer);
+      if (session.timeoutId) clearTimeout(session.timeoutId);
+      session.timeoutId = setTimeout(() => {
+        session.currentIndex++;
+        askNextQuestion();
+      }, 60000);
     };
 
-    askQuestion();
+    askNextQuestion();
+  },
 
-    const savePlayer = async () => {
-      // Enregistre le joueur dans Supabase
-      await supabase.from('players').insert([playerData]);
+  onMessage: async ({ api, event }) => {
+    const threadID = event.threadID;
+    const session = pendingPlayers[threadID];
+    if (!session) return;
 
-      // Génération de l'image du personnage via Replicate
-      const characterPrompt = `A ${playerData.sex} character, ${playerData.hair_color} ${playerData.hair_type} hair, wearing ${playerData.outfit}, wielding a ${playerData.weapon}, class ${playerData.class}, alignment ${playerData.alignment}, full body, fantasy style, detailed illustration`;
+    // On ne prend que le joueur qui a lancé la commande
+    if (event.senderID !== session.uid) return;
 
-      let characterImageUrl = "";
+    let msg = (event.body || "").trim();
+    if (!msg.startsWith("!")) return; // seulement les messages qui commencent par !
 
+    msg = msg.slice(1).trim(); // supprime le !
+
+    if (!msg) return;
+
+    if (session.timeoutId) {
+      clearTimeout(session.timeoutId);
+      session.timeoutId = null;
+    }
+
+    const currentQ = session.questions[session.currentIndex];
+    session.data[currentQ.key] = msg;
+    session.currentIndex++;
+
+    if (session.currentIndex >= session.questions.length) {
+      await finalizePlayer(threadID, api);
+    } else {
+      const nextQ = session.questions[session.currentIndex];
+      await api.sendMessage(nextQ.text, threadID);
+
+      // restart timer
+      session.timeoutId = setTimeout(() => {
+        session.currentIndex++;
+        if (session.currentIndex >= session.questions.length) {
+          finalizePlayer(threadID, api);
+        } else {
+          const followingQ = session.questions[session.currentIndex];
+          api.sendMessage(`⏰ Temps écoulé. Prochaine :\n${followingQ.text}`, threadID);
+        }
+      }, 60000);
+    }
+  }
+};
+
+async function finalizePlayer(threadID, api) {
+  const session = pendingPlayers[threadID];
+  if (!session) return;
+
+  try {
+    if (session.timeoutId) clearTimeout(session.timeoutId);
+
+    await supabase.from('players').insert([session.data]);
+
+    let characterImageBuffer = null;
+    if (REPLICATE_API_KEY) {
+      const prompt = `A ${session.data.sex} character, ${session.data.hair_color} ${session.data.hair_type} hair, wearing ${session.data.outfit}, wielding a ${session.data.weapon}, class ${session.data.class}, alignment ${session.data.alignment}, full body, fantasy style, detailed illustration`;
       try {
         const response = await axios.post('https://api.replicate.com/v1/predictions', {
           version: "flux-pro",
-          input: { prompt: characterPrompt }
+          input: { prompt }
         }, {
           headers: { "Authorization": `Token ${REPLICATE_API_KEY}` }
         });
 
-        characterImageUrl = response.data.output[0];
+        const imageUrl = response.data?.output?.[0];
+        if (imageUrl) {
+          const res = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+          characterImageBuffer = Buffer.from(res.data, 'binary');
+        }
       } catch (err) {
-        console.log("Erreur génération image :", err);
-        characterImageUrl = ""; // fallback
+        console.error("Error generating image:", err?.response?.data || err.message || err);
       }
+    }
 
-      await api.sendMessage({
-        body: `🎉 Ton personnage **${playerData.player_name}** a été créé !`,
-        attachment: characterImageUrl ? await api.getStreamFromURL(characterImageUrl) : undefined
-      }, threadID);
+    await api.sendMessage({
+      body: `🎉 Ton personnage **${session.data.player_name || 'Inconnu'}** a été créé !`,
+      attachment: characterImageBuffer || undefined
+    }, threadID);
 
-      // Lancer le monde principal
-      const eqWorld = require('./eq-world.js');
-      eqWorld.enterWorld(uid, api);
-    };
+    try {
+      const eqWorld = require('eq-world.js');
+      if (eqWorld && typeof eqWorld.enterWorld === 'function') {
+        eqWorld.enterWorld(session.uid, api);
+      }
+    } catch (e) {}
+
+  } catch (err) {
+    console.error("Finalize player error:", err);
+    await api.sendMessage("❌ Une erreur est survenue lors de la création de ton personnage.", threadID);
+  } finally {
+    delete pendingPlayers[threadID];
   }
-};
+                          }
