@@ -304,7 +304,7 @@ module.exports = {
       }
 
       default:
-        return api.sendMessage("❓ Commande inconnue. Tape /av pour le menu.", threadID, messageID);
+        return api.sendMessage("❓ Commande inconnue. Tape /1xbet pour le menu.", threadID, messageID);
     }
   }
 };
