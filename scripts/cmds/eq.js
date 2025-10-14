@@ -2,7 +2,7 @@ const { createClient } = require('@supabase/supabase-js');
 const axios = require('axios');
 
 const SUPABASE_URL = 'https://vflmcbbkksuiwxquommy.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ5...'; // ta clé
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZmbG1jYmJra3N1aXd4cXVvbW15Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA0NTU2OTMsImV4cCI6MjA3NjAzMTY5M30.Td1TEHFtycaUwwB5_-pgqmwn1xaVxQPxVF511-IWLIU';
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Gemini / Replicate API
@@ -92,7 +92,7 @@ module.exports = {
       // Enregistre le joueur dans Supabase
       await supabase.from('players').insert([playerData]);
 
-      // Génération de l'image du personnage via Replicate (placeholder)
+      // Génération de l'image du personnage via Replicate
       const characterPrompt = `A ${playerData.sex} character, ${playerData.hair_color} ${playerData.hair_type} hair, wearing ${playerData.outfit}, wielding a ${playerData.weapon}, class ${playerData.class}, alignment ${playerData.alignment}, full body, fantasy style, detailed illustration`;
 
       let characterImageUrl = "";
