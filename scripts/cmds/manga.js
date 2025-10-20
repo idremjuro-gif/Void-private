@@ -1,78 +1,115 @@
+// ---------------- manga.js ----------------
 const axios = require("axios");
 
 module.exports = {
   config: {
     name: "manga",
-    aliases: ["man", "ani-manga"],
-    version: "1.0",
-    author: "nexo_here",
-    countDown: 0,
+    aliases: ["anime", "episodes"],
+    version: "2.0",
+    author: "Merdi Madimba",
     role: 0,
-    description: "Search Manga info using AniList API",
-    category: "anime",
+    shortDescription: {
+      fr: "Trouve et regarde un anime complet"
+    },
+    longDescription: {
+      fr: "Recherche un anime et envoie les liens complets des épisodes en VF ou VOSTFR selon la disponibilité."
+    },
+    category: "🎬 Divertissement",
     guide: {
-      en: "{pn} [manga name] — get manga info from AniList"
+      fr: "{p}manga [nom de l'anime]"
     }
   },
 
-  onStart: async function ({ api, event, args }) {
-    const query = args.join(" ");
-    if (!query) return api.sendMessage("🔍 | Please provide a manga name.", event.threadID);
+  onStart: async function ({ event, message, args }) {
+    const mangaName = args.join(" ");
+    if (!mangaName)
+      return message.reply("🎌 Entrez le nom du manga ou anime à rechercher.\nExemple : !manga One Piece");
 
-    const anilistQuery = `
-      query ($search: String) {
-        Media(search: $search, type: MANGA) {
-          title {
-            romaji
-            english
-            native
-          }
-          description(asHtml: false)
-          status
-          chapters
-          volumes
-          averageScore
-          genres
-          siteUrl
-          coverImage {
-            large
-          }
-        }
-      }
-    `;
-
-    const variables = {
-      search: query
-    };
+    message.reply(`🔍 Recherche de *${mangaName}*...`);
 
     try {
-      const res = await axios.post("https://graphql.anilist.co", {
-        query: anilistQuery,
-        variables: variables
+      // 🔹 Nouvelle API : Anime-DB
+      const searchUrl = `https://api.anime-db.info/anime?search=${encodeURIComponent(mangaName)}`;
+      const res = await axios.get(searchUrl);
+      const results = res.data.data || [];
+
+      if (!Array.isArray(results) || results.length === 0)
+        return message.reply(`❌ Aucun anime trouvé pour *${mangaName}*.`);
+
+      const anime = results[0]; // premier résultat
+      const animeTitle = anime.title;
+      const animeImage = anime.image_url || null;
+      const animeSynopsis = anime.synopsis ? anime.synopsis.substring(0, 250) + "..." : "Aucune description.";
+      const searchName = animeTitle.replace(/\s+/g, "-").toLowerCase();
+
+      // Envoi d’un aperçu avec image
+      message.reply({
+        body: `🎬 **${animeTitle}** trouvé !\n\n${animeSynopsis}\n\nLangue disponible : VF ou VOSTFR.\n\nChoisis la qualité d'image :\n\n1️⃣ 480p\n2️⃣ 720p\n3️⃣ 1080p\n\n➡️ Réponds par 1, 2 ou 3.`,
+        attachment: animeImage
+          ? await global.utils.getStreamFromURL(animeImage)
+          : null
       });
 
-      const manga = res.data.data.Media;
+      global.GoatBot.onReply.set(event.messageID, {
+        commandName: this.config.name,
+        step: "chooseQuality",
+        animeTitle,
+        searchName,
+        author: event.senderID
+      });
 
-      const title = manga.title.english || manga.title.romaji || manga.title.native;
-      const desc = manga.description?.replace(/<br>/g, "\n").replace(/<\/?[^>]+(>|$)/g, "").substring(0, 300) || "No description available.";
-      const msg = `📖 ${title}\n\n📌 Status: ${manga.status}\n📚 Chapters: ${manga.chapters || "?"}\n📘 Volumes: ${manga.volumes || "?"}\n⭐ Score: ${manga.averageScore || "?"}/100\n🎭 Genres: ${manga.genres.join(", ")}\n\n📝 Description:\n${desc}...\n\n🔗 ${manga.siteUrl}`;
+    } catch (err) {
+      console.error(err);
+      message.reply("⚠️ Erreur lors de la recherche du manga. Essaie un autre nom ou reformule.");
+    }
+  },
 
-      const cover = manga.coverImage.large;
+  onReply: async function ({ event, message, Reply }) {
+    const { step, animeTitle, searchName, author } = Reply;
+    if (event.senderID !== author)
+      return message.reply("❌ Seul l'utilisateur ayant lancé la recherche peut répondre.");
 
-      // Download and send image with message
-      const img = (await axios.get(cover, { responseType: "arraybuffer" })).data;
-      const imgPath = __dirname + "/manga.jpg";
-      const fs = require("fs");
-      fs.writeFileSync(imgPath, Buffer.from(img, "utf-8"));
+    // Étape 1 : Choix de la qualité
+    if (step === "chooseQuality") {
+      const choice = event.body.trim();
+      const qualityOptions = { "1": "480p", "2": "720p", "3": "1080p" };
+      const chosenQuality = qualityOptions[choice];
 
-      api.sendMessage({
-        body: msg,
-        attachment: fs.createReadStream(imgPath)
-      }, event.threadID, () => fs.unlinkSync(imgPath));
+      if (!chosenQuality)
+        return message.reply("⚙️ Choisis une option valide : 1️⃣, 2️⃣ ou 3️⃣");
 
-    } catch (e) {
-      console.error(e);
-      api.sendMessage("❌ | Couldn't fetch manga info. Try again or check the name.", event.threadID);
+      message.reply(`🌐 Quelle version veux-tu regarder ?\n\n1️⃣ VF\n2️⃣ VOSTFR\n\n➡️ Réponds par 1 ou 2.`);
+
+      global.GoatBot.onReply.set(event.messageID, {
+        commandName: "manga",
+        step: "chooseLang",
+        animeTitle,
+        searchName,
+        quality: chosenQuality,
+        author
+      });
+    }
+
+    // Étape 2 : Choix de la langue
+    else if (step === "chooseLang") {
+      const langChoice = event.body.trim();
+      const langOptions = { "1": "VF", "2": "VOSTFR" };
+      const chosenLang = langOptions[langChoice];
+
+      if (!chosenLang)
+        return message.reply("🗣️ Choisis une option valide : 1️⃣ VF ou 2️⃣ VOSTFR.");
+
+      // On construit un lien de visionnage fiable (Anime-sama ou VoirAnime)
+      const formattedName = searchName
+        .replace(/[^a-zA-Z0-9-]/g, "")
+        .replace(/--+/g, "-");
+
+      const siteUrl =
+        chosenLang === "VF"
+          ? `https://www.anime-sama.fr/catalogue/${formattedName}/vf/`
+          : `https://www.anime-sama.fr/catalogue/${formattedName}/vostfr/`;
+
+      message.reply(`📺 Voici ton anime :\n\n🎬 **${animeTitle}**\nLangue : ${chosenLang}\nQualité : ${Reply.quality}\n\n➡️ Regarde ici : ${siteUrl}\n\n💡 Si le lien ne s'ouvre pas, essaie sur https://www.voiranime.com en recherchant le même titre.`);
     }
   }
 };
